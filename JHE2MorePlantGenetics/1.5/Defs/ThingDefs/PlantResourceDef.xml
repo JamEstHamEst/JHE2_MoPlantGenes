@@ -6,7 +6,7 @@
 		<description>Raw ravitserae. \n\nRavitsera fungus are incredibly filling and can be eaten raw.</description>
 		<possessionCount>10</possessionCount>
 		<graphicData>
-			<texPath>Things/Item/Resource/PlantFoodRaw/Ravitsera</texPath>
+			<texPath>JHE2MorePlantGenetics/Things/Item/Resource/PlantFoodRaw/Ravitsera</texPath>
 		</graphicData>
 		<statBases>
 			<MarketValue>1.1</MarketValue>
