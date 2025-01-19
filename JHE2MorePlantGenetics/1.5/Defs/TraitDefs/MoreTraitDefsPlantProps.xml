@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<PlantGenetics.TraitDef>
+		<defName>JHE2_Longlife</defName>
+		<label>long living</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>1.5</statmultiplier>
+		<associatedPlantProperty>lifespanDaysPerGrowDays</associatedPlantProperty>
+	</PlantGenetics.TraitDef>
+	<PlantGenetics.TraitDef>
+		<defName>JHE2_Sensitive</defName>
+		<label>Sensitive</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>1.5</statmultiplier>
+		<associatedPlantProperty>fertilitySensitivity</associatedPlantProperty>
+	</PlantGenetics.TraitDef>
+	<PlantGenetics.TraitDef>
+		<defName>JHE2_Blunderfree</defName>
+		<label>blunder free</label>
+		<commonality>0.01</commonality>
+		<associatedPlantProperty>harvestFailable</associatedPlantProperty>
+	</PlantGenetics.TraitDef>
+	<PlantGenetics.TraitDef>
+		<defName>JHE2_UnSensitive</defName>
+		<label>unsensitive</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>0.5</statmultiplier>
+		<associatedPlantProperty>fertilitySensitivity</associatedPlantProperty>
+	</PlantGenetics.TraitDef>
+	<PlantGenetics.TraitDef>
+		<defName>JHE2_Agree</defName>
+		<label>agreeable</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>0.5</statmultiplier>
+		<associatedPlantProperty>fertilityMinUn</associatedPlantProperty>
+	</PlantGenetics.TraitDef>
+	<PlantGenetics.TraitDef>
+		<defName>JHE2_Regrowing</defName>
+		<label>Regrowing</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>1.5</statmultiplier>
+		<associatedPlantProperty>harvestAfterGrowth</associatedPlantProperty>
+	</PlantGenetics.TraitDef>
+	<!--<PlantGenetics.TraitDef>
+		<defName>JHE2_Golden</defName>
+		<label>Golden</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>0.1</statmultiplier>
+		<associatedPlantProperty>golden</associatedPlantProperty>
+	</PlantGenetics.TraitDef>-->
+	<PlantGenetics.TraitDef>
+		<defName>JHE2_Cave</defName>
+		<label>Photophobic</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>0</statmultiplier>
+		<associatedPlantProperty>growOptimalGlowCave</associatedPlantProperty>
+	</PlantGenetics.TraitDef>
+	<PlantGenetics.TraitDef>
+		<defName>JHE2_Solar</defName>
+		<label>photosynthetic</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>0</statmultiplier>
+		<associatedPlantProperty>growOptimalGlowSun</associatedPlantProperty>
+	</PlantGenetics.TraitDef>
+	<PlantGenetics.TraitDef>
+		<defName>JHE2_Pottable</defName>
+		<label>pottable</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>0</statmultiplier>
+		<associatedPlantProperty>pottable</associatedPlantProperty>
+	</PlantGenetics.TraitDef>
+	<PlantGenetics.TraitDef>
+		<defName>JHE2_hydroponic</defName>
+		<label>Hydroponic</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>0</statmultiplier>
+		<associatedPlantProperty>Hydroponic</associatedPlantProperty>
+	</PlantGenetics.TraitDef>
+	<PlantGenetics.TraitDef MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>JHE2_pollution</defName>
+		<label>Polluted</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>0</statmultiplier>
+		<associatedPlantProperty>pollution</associatedPlantProperty>
+	</PlantGenetics.TraitDef> 
+
+	<PlantGenetics.TraitDef>
+		<defName>JHE2_Ravit</defName>
+		<label>Gourmet</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>0.25</statmultiplier>
+		<associatedPlantProperty>ravitsera</associatedPlantProperty>
+	</PlantGenetics.TraitDef>
+	<PlantGenetics.TraitDef>
+		<defName>JHE2_Ambrosic</defName>
+		<label>Ambrosia</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>0.01</statmultiplier>
+		<associatedPlantProperty>Ambrosia</associatedPlantProperty>
+	</PlantGenetics.TraitDef>
+		
+		<PlantGenetics.TraitDef>
+		<defName>JHE2_straightforward</defName>
+		<label>simple</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>2</statmultiplier>
+		<associatedPlantProperty>straight</associatedPlantProperty>
+	</PlantGenetics.TraitDef>
+	<!--  MayRequire="Ludeon.RimWorld.Biotech"
+	-->
+</Defs>

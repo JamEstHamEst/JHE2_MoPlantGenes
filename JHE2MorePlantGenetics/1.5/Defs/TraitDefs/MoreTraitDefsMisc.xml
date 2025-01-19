@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<PlantGenetics.TraitDef>
+		<defName>JHE2_easytrav</defName>
+		<label>traversable</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>1.5</statmultiplier>
+		<associatedPlantProperty>pathCostEasy</associatedPlantProperty>
+	</PlantGenetics.TraitDef>
+	<PlantGenetics.TraitDef>
+		<defName>JHE2_hardtrav</defName>
+		<label>untraversable</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>1.5</statmultiplier>
+		<associatedPlantProperty>pathCosthard</associatedPlantProperty>
+	</PlantGenetics.TraitDef>
+<!--	
+<PlantGenetics.TraitDef>
+		<defName>JHE2_neurotoxic</defName>
+		<label>neurotoxic</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>1.5</statmultiplier>
+		<associatedPlantProperty>neurotoxin</associatedPlantProperty>
+	</PlantGenetics.TraitDef>
+	<PlantGenetics.TraitDef>
+		<defName>JHE2_toxic</defName>
+		<label>toxic</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>1.5</statmultiplier>
+		<associatedPlantProperty>toxic</associatedPlantProperty>
+	</PlantGenetics.TraitDef>
+	 im not dealing with this right now stuff this,
+<PlantGenetics.TraitDef>
+	<defName>JHE2_repottable</defName>
+	<label>repottable</label>
+	<commonality>0.01</commonality>
+	<statmultiplier>1.5</statmultiplier>
+	<associatedPlantProperty>minifiedDef</associatedPlantProperty>
+</PlantGenetics.TraitDef>
+-->
+ <PlantGenetics.TraitDef>
+        <defName>JHE2_Saharan</defName>
+        <label>Saharan</label>
+        <commonality>0.01</commonality>
+        <special>true</special>
+    </PlantGenetics.TraitDef>
+</Defs>

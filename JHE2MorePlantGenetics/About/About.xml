@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModMetaData>
+<packageId>JHE2.MoPlantGen</packageId>
+<loadAfter>
+<li>Adamas.PlantGenetics</li>
+</loadAfter>
+<name>All The Plant Genes</name>
+<author>JamHam</author>
+<supportedVersions>
+<li>1.5</li>
+</supportedVersions>
+<description>Adds loads of new plant genes for Adamas' plant genes mod! \n\nConcuct crazy plants like insta-growing, self-healing rice, glowing devilstrand growing in hydroponics, self harvesting corn that releases toxic gasses, and much, much more! \n\nLoad after Adamas' Plant Genetics mod of course. </description>
+</ModMetaData>
+

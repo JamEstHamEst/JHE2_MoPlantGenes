@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!--<PlantGenetics.TraitDef>
+		<defName>JHE2_Glower</defName>
+		<label>Glowing</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>1.5</statmultiplier>
+		<associatedPlantProperty>glower</associatedPlantProperty>
+	</PlantGenetics.TraitDef>-->
+	<PlantGenetics.TraitDef>
+		<defName>JHE2_Heater</defName>
+		<label>Heating</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>1.5</statmultiplier>
+		<associatedPlantProperty>heater</associatedPlantProperty>
+	</PlantGenetics.TraitDef>
+	<PlantGenetics.TraitDef>
+		<defName>JHE2_Cooler</defName>
+		<label>Cooling</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>1.5</statmultiplier>
+		<associatedPlantProperty>cooling</associatedPlantProperty>
+	</PlantGenetics.TraitDef>
+	<PlantGenetics.TraitDef>
+		<defName>JHE2_Healer</defName>
+		<label>self healing</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>1.5</statmultiplier>
+		<associatedPlantProperty>CompProperties_SelfhealHitpoints</associatedPlantProperty>
+	</PlantGenetics.TraitDef>
+		<PlantGenetics.TraitDef MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>JHE2_pump</defName>
+		<label>polux</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>1.5</statmultiplier>
+		<associatedPlantProperty>CompProperties_PollutionPump</associatedPlantProperty>
+	</PlantGenetics.TraitDef>
+		<PlantGenetics.TraitDef MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>JHE2_polluter</defName>
+		<label>polluter</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>1.5</statmultiplier>
+		<associatedPlantProperty>CompToxifierPlant</associatedPlantProperty>
+	</PlantGenetics.TraitDef>	
+<!--
+		<PlantGenetics.TraitDef MayRequire="Ludeon.RimWorld.Royalty">
+		<defName>JHE2_anima</defName>
+		<label>Anima</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>1.5</statmultiplier>
+		<associatedPlantProperty>CompProperties_MeditationFocus</associatedPlantProperty>
+		<associatedStats>
+			<li>MeditationFocusStrength</li>
+		</associatedStats>
+	</PlantGenetics.TraitDef>	
+-->
+		<PlantGenetics.TraitDef MayRequire="Ludeon.RimWorld.Ideology">
+		<defName>JHE2_gaurenlen</defName>
+		<label>gaurenlen</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>1.25</statmultiplier>
+		<associatedPlantProperty>Gaurenlen</associatedPlantProperty>
+	</PlantGenetics.TraitDef>	
+	
+		<PlantGenetics.TraitDef>
+		<defName>JHE2_selfharvest</defName>
+		<label>self harvesting</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>1.15</statmultiplier>
+		<associatedPlantProperty>CompProperties_Autoharvest</associatedPlantProperty>
+	</PlantGenetics.TraitDef>	
+	<PlantGenetics.TraitDef>
+		<defName>JHE2_selfSow</defName>
+		<label>self sowing</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>0.75</statmultiplier>
+		<associatedPlantProperty>CompAutoSow</associatedPlantProperty>
+	</PlantGenetics.TraitDef>
+		
+	<PlantGenetics.TraitDef>
+		<defName>JHE2_smelly</defName>
+		<label>Rafflesia</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>1</statmultiplier>
+		<associatedPlantProperty>Gaseous</associatedPlantProperty>
+	</PlantGenetics.TraitDef>
+	<PlantGenetics.TraitDef  MayRequire="Ludeon.RimWorld.Biotech">
+		<defName>JHE2_noxious</defName>
+		<label>Noxious</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>2</statmultiplier>
+		<associatedPlantProperty>Gaseous</associatedPlantProperty>
+	</PlantGenetics.TraitDef>
+	<PlantGenetics.TraitDef  MayRequire="Ludeon.RimWorld.Anomaly">
+		<defName>JHE2_greypall</defName>
+		<label>Shambling</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>3</statmultiplier>
+		<associatedPlantProperty>Gaseous</associatedPlantProperty>
+	</PlantGenetics.TraitDef>
+		<PlantGenetics.TraitDef>
+		<defName>JHE2_smokey</defName>
+		<label>Smokey</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>4</statmultiplier>
+		<associatedPlantProperty>Gaseous</associatedPlantProperty>
+	</PlantGenetics.TraitDef>
+	
+	<PlantGenetics.TraitDef>
+		<defName>JHE2_sticky</defName>
+		<label>Sticky</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>1.5</statmultiplier>
+		<associatedPlantProperty>CompProperties_SpawnerFilth</associatedPlantProperty>
+	</PlantGenetics.TraitDef>
+	<PlantGenetics.TraitDef>
+		<defName>JHE2_bliss</defName>
+		<label>Blissful</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>1.5</statmultiplier>
+		<associatedPlantProperty>CompProperties_CauseHediff_AoE</associatedPlantProperty>
+	</PlantGenetics.TraitDef>
+	<PlantGenetics.TraitDef>
+		<defName>JHE2_sooth</defName>
+		<label>Soothing</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>1.5</statmultiplier>
+		<associatedPlantProperty>CompProperties_GiveHediffSeverity</associatedPlantProperty>
+	</PlantGenetics.TraitDef>
+	
+</Defs>

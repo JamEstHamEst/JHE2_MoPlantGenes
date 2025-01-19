@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- MiniDryad -->
+	<ThingDef ParentName="DryadBase">
+		<defName>JHE2_Minidryad</defName>
+		<label>Duriads</label>
+		<description>Duriads are small mammalian creatures that have a symbiotic relationship with their parent plant. \n\nThe duriad will support and protect its plant to ensure the queen duriad inside can survive, attacking enemy combatants and putting out fires. \n\nDuriad workers have incredibly short life cycles only lasting a few days before their bodies quickly break down.</description>
+		<statBases>
+			<MoveSpeed>2</MoveSpeed>
+		</statBases>
+		<race>
+			<lifeStageAges>
+				<li>
+					<def>AnimalAdult</def>
+					<soundWounded>Pawn_Dryad_Wounded</soundWounded>
+					<soundCall>Pawn_Dryad_Call</soundCall>
+				</li>
+			</lifeStageAges>
+			<headPosPerRotation>
+				<li>(0.0, 0, 0.12)</li>
+				<li>(0.08, 0, 0.04)</li>
+				<li>(0, 0, 0)</li>
+				<li>(-0.08, 0, 0.04)</li>
+			</headPosPerRotation>
+			<thinkTreeMain>JHE2_MiniDryad</thinkTreeMain>
+			<thinkTreeConstant>AnimalConstant</thinkTreeConstant>
+			<lifeExpectancy>1</lifeExpectancy>
+			<baseBodySize>0.2</baseBodySize>
+			<baseHealthScale>0.2</baseHealthScale>
+			<intelligence>ToolUser</intelligence>
+			<hasCorpse>false</hasCorpse>
+			<bloodDef IsNull="True"/>
+		</race>
+		<tools>
+			<li>
+				<label>left claw</label>
+				<labelNoLocation>claw</labelNoLocation>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>1</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right claw</label>
+				<labelNoLocation>claw</labelNoLocation>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>1</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<capacities>
+					<li>Bite</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+				<chanceFactor>0.9</chanceFactor>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>1</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>2</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<comps>
+			<li Class="CompProperties_DestroyAfterDelay">
+				<delayTicks>180000</delayTicks>
+				<displayCountdownOnLabel>true</displayCountdownOnLabel>
+				<countdownLabel>Breaks down in</countdownLabel>
+			</li>
+		</comps>
+	</ThingDef>
+	<PawnKindDef ParentName="DryadKindBase">
+		<defName>JHE2_Minidryad</defName>
+		<label>mini dryad</label>
+		<race>JHE2_Minidryad</race>
+		<forceDeathOnDowned>true</forceDeathOnDowned>
+		<forceNoDeathNotification>true</forceNoDeathNotification>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawn/Animal/Dryad_Basic/Dryad_Basic</texPath>
+					<drawSize>1</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Dryad_Basic/Dessicated_DryadBasic</texPath>
+					<drawSize>1</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+	</PawnKindDef>
+</Defs>

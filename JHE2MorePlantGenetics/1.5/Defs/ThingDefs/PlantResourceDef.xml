@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="PlantFoodRawBase">
+		<defName>JHE2_bigfruit</defName>
+		<label>ravitserae</label>
+		<description>Raw ravitserae. \n\nRavitsera fungus are incredibly filling and can be eaten raw.</description>
+		<possessionCount>10</possessionCount>
+		<graphicData>
+			<texPath>Things/Item/Resource/PlantFoodRaw/Ravitsera</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.1</MarketValue>
+			<Nutrition>0.095</Nutrition>
+			<FoodPoisonChanceFixedHuman>0</FoodPoisonChanceFixedHuman>
+		</statBases>
+		<ingestible>
+			<foodType>VegetableOrFruit</foodType>
+			<preferability>RawTasty</preferability>
+			<tasteThought/>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>25</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="BaseFilth">
+    <defName>JHE2_Filth_plantslime</defName>
+    <label>Plant mucilage</label>
+    <pathCost>50</pathCost>
+    <statBases>
+      <Beauty>-1</Beauty>
+      <Cleanliness>-15</Cleanliness>
+    </statBases>
+    <graphicData>
+      <texPath>Things/Filth/Spatter</texPath>
+      <color>(170, 201, 66)</color>
+    </graphicData>
+    <filth>
+      <cleaningWorkToReduceThickness>120</cleaningWorkToReduceThickness>
+      <canFilthAttach>true</canFilthAttach>
+      <cleaningSound>Interact_CleanFilth_Fluid</cleaningSound>
+    </filth>
+  </ThingDef>
+	
+</Defs>
