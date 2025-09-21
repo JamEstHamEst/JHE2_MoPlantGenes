@@ -1,0 +1,7 @@
+ID: JHE2_Unsensitive_Wiki
+Title:Unsensitive
+Description: Decreases fertility sensitivity by 0.5x
+
+ENDTAGS
+#Plants with this trait can be bred to be less responsive to the nutrients in the soil.
+<b><color=\#09e530>Stacks</color></b>#

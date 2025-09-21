@@ -2,30 +2,42 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.8": {
-      "Krafs.Rimworld.Ref/1.5.4297": {
+      "Krafs.Rimworld.Ref/1.6.4528": {
         "type": "package",
         "compile": {
           "ref/net472/Assembly-CSharp-firstpass.dll": {},
           "ref/net472/Assembly-CSharp.dll": {},
           "ref/net472/ISharpZipLib.dll": {},
-          "ref/net472/Mono.Posix.dll": {},
           "ref/net472/Mono.Security.dll": {},
           "ref/net472/NAudio.dll": {},
           "ref/net472/NVorbis.dll": {},
           "ref/net472/System.ComponentModel.Composition.dll": {},
           "ref/net472/System.Configuration.dll": {},
           "ref/net472/System.Core.dll": {},
+          "ref/net472/System.Data.DataSetExtensions.dll": {},
+          "ref/net472/System.Data.dll": {},
+          "ref/net472/System.Drawing.dll": {},
+          "ref/net472/System.EnterpriseServices.dll": {},
+          "ref/net472/System.IO.Compression.FileSystem.dll": {},
+          "ref/net472/System.IO.Compression.dll": {},
+          "ref/net472/System.Net.Http.dll": {},
+          "ref/net472/System.Numerics.dll": {},
           "ref/net472/System.Runtime.Serialization.dll": {},
           "ref/net472/System.Runtime.dll": {},
           "ref/net472/System.Security.dll": {},
           "ref/net472/System.ServiceModel.Internals.dll": {},
+          "ref/net472/System.Transactions.dll": {},
           "ref/net472/System.Xml.Linq.dll": {},
           "ref/net472/System.Xml.dll": {},
           "ref/net472/System.dll": {},
+          "ref/net472/Unity.AI.Navigation.dll": {},
           "ref/net472/Unity.Burst.Unsafe.dll": {},
           "ref/net472/Unity.Burst.dll": {},
+          "ref/net472/Unity.Collections.LowLevel.ILSupport.dll": {},
+          "ref/net472/Unity.Collections.dll": {},
           "ref/net472/Unity.Mathematics.dll": {},
           "ref/net472/Unity.MemoryProfiler.dll": {},
+          "ref/net472/Unity.Profiling.Core.dll": {},
           "ref/net472/Unity.TextMeshPro.dll": {},
           "ref/net472/UnityEngine.AIModule.dll": {},
           "ref/net472/UnityEngine.ARModule.dll": {},
@@ -37,10 +49,12 @@
           "ref/net472/UnityEngine.ClothModule.dll": {},
           "ref/net472/UnityEngine.ClusterInputModule.dll": {},
           "ref/net472/UnityEngine.ClusterRendererModule.dll": {},
+          "ref/net472/UnityEngine.ContentLoadModule.dll": {},
           "ref/net472/UnityEngine.CoreModule.dll": {},
           "ref/net472/UnityEngine.CrashReportingModule.dll": {},
           "ref/net472/UnityEngine.DSPGraphModule.dll": {},
           "ref/net472/UnityEngine.DirectorModule.dll": {},
+          "ref/net472/UnityEngine.GIModule.dll": {},
           "ref/net472/UnityEngine.GameCenterModule.dll": {},
           "ref/net472/UnityEngine.GridModule.dll": {},
           "ref/net472/UnityEngine.HotReloadModule.dll": {},
@@ -50,11 +64,14 @@
           "ref/net472/UnityEngine.InputModule.dll": {},
           "ref/net472/UnityEngine.JSONSerializeModule.dll": {},
           "ref/net472/UnityEngine.LocalizationModule.dll": {},
+          "ref/net472/UnityEngine.NVIDIAModule.dll": {},
           "ref/net472/UnityEngine.ParticleSystemModule.dll": {},
           "ref/net472/UnityEngine.PerformanceReportingModule.dll": {},
           "ref/net472/UnityEngine.Physics2DModule.dll": {},
           "ref/net472/UnityEngine.PhysicsModule.dll": {},
           "ref/net472/UnityEngine.ProfilerModule.dll": {},
+          "ref/net472/UnityEngine.PropertiesModule.dll": {},
+          "ref/net472/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll": {},
           "ref/net472/UnityEngine.ScreenCaptureModule.dll": {},
           "ref/net472/UnityEngine.SharedInternalsModule.dll": {},
           "ref/net472/UnityEngine.SpriteMaskModule.dll": {},
@@ -65,16 +82,18 @@
           "ref/net472/UnityEngine.TLSModule.dll": {},
           "ref/net472/UnityEngine.TerrainModule.dll": {},
           "ref/net472/UnityEngine.TerrainPhysicsModule.dll": {},
-          "ref/net472/UnityEngine.TextCoreModule.dll": {},
+          "ref/net472/UnityEngine.TextCoreFontEngineModule.dll": {},
+          "ref/net472/UnityEngine.TextCoreTextEngineModule.dll": {},
           "ref/net472/UnityEngine.TextRenderingModule.dll": {},
           "ref/net472/UnityEngine.TilemapModule.dll": {},
           "ref/net472/UnityEngine.UI.dll": {},
           "ref/net472/UnityEngine.UIElementsModule.dll": {},
           "ref/net472/UnityEngine.UIModule.dll": {},
-          "ref/net472/UnityEngine.UNETModule.dll": {},
           "ref/net472/UnityEngine.UmbraModule.dll": {},
+          "ref/net472/UnityEngine.UnityAnalyticsCommonModule.dll": {},
           "ref/net472/UnityEngine.UnityAnalyticsModule.dll": {},
           "ref/net472/UnityEngine.UnityConnectModule.dll": {},
+          "ref/net472/UnityEngine.UnityCurlModule.dll": {},
           "ref/net472/UnityEngine.UnityTestProtocolModule.dll": {},
           "ref/net472/UnityEngine.UnityWebRequestAssetBundleModule.dll": {},
           "ref/net472/UnityEngine.UnityWebRequestAudioModule.dll": {},
@@ -85,14 +104,16 @@
           "ref/net472/UnityEngine.VRModule.dll": {},
           "ref/net472/UnityEngine.VehiclesModule.dll": {},
           "ref/net472/UnityEngine.VideoModule.dll": {},
+          "ref/net472/UnityEngine.VirtualTexturingModule.dll": {},
           "ref/net472/UnityEngine.WindModule.dll": {},
           "ref/net472/UnityEngine.XRModule.dll": {},
           "ref/net472/UnityEngine.dll": {},
           "ref/net472/com.rlabrecque.steamworks.net.dll": {},
-          "ref/net472/mscorlib.dll": {}
+          "ref/net472/mscorlib.dll": {},
+          "ref/net472/netstandard.dll": {}
         }
       },
-      "Lib.Harmony/2.3.3": {
+      "Lib.Harmony/2.3.6": {
         "type": "package",
         "compile": {
           "lib/net48/0Harmony.dll": {
@@ -102,35 +123,68 @@
         "runtime": {
           "lib/net48/0Harmony.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Lib.InGameWiki/16.0.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.IO.Compression",
+          "System.Net.Http",
+          "System.Runtime"
+        ],
+        "compile": {
+          "lib/net472/InGameWiki.dll": {}
+        },
+        "runtime": {
+          "lib/net472/InGameWiki.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/any/net472/Icon.ico": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
           }
         }
       }
     },
     ".NETFramework,Version=v4.8/win": {
-      "Krafs.Rimworld.Ref/1.5.4297": {
+      "Krafs.Rimworld.Ref/1.6.4528": {
         "type": "package",
         "compile": {
           "ref/net472/Assembly-CSharp-firstpass.dll": {},
           "ref/net472/Assembly-CSharp.dll": {},
           "ref/net472/ISharpZipLib.dll": {},
-          "ref/net472/Mono.Posix.dll": {},
           "ref/net472/Mono.Security.dll": {},
           "ref/net472/NAudio.dll": {},
           "ref/net472/NVorbis.dll": {},
           "ref/net472/System.ComponentModel.Composition.dll": {},
           "ref/net472/System.Configuration.dll": {},
           "ref/net472/System.Core.dll": {},
+          "ref/net472/System.Data.DataSetExtensions.dll": {},
+          "ref/net472/System.Data.dll": {},
+          "ref/net472/System.Drawing.dll": {},
+          "ref/net472/System.EnterpriseServices.dll": {},
+          "ref/net472/System.IO.Compression.FileSystem.dll": {},
+          "ref/net472/System.IO.Compression.dll": {},
+          "ref/net472/System.Net.Http.dll": {},
+          "ref/net472/System.Numerics.dll": {},
           "ref/net472/System.Runtime.Serialization.dll": {},
           "ref/net472/System.Runtime.dll": {},
           "ref/net472/System.Security.dll": {},
           "ref/net472/System.ServiceModel.Internals.dll": {},
+          "ref/net472/System.Transactions.dll": {},
           "ref/net472/System.Xml.Linq.dll": {},
           "ref/net472/System.Xml.dll": {},
           "ref/net472/System.dll": {},
+          "ref/net472/Unity.AI.Navigation.dll": {},
           "ref/net472/Unity.Burst.Unsafe.dll": {},
           "ref/net472/Unity.Burst.dll": {},
+          "ref/net472/Unity.Collections.LowLevel.ILSupport.dll": {},
+          "ref/net472/Unity.Collections.dll": {},
           "ref/net472/Unity.Mathematics.dll": {},
           "ref/net472/Unity.MemoryProfiler.dll": {},
+          "ref/net472/Unity.Profiling.Core.dll": {},
           "ref/net472/Unity.TextMeshPro.dll": {},
           "ref/net472/UnityEngine.AIModule.dll": {},
           "ref/net472/UnityEngine.ARModule.dll": {},
@@ -142,10 +196,12 @@
           "ref/net472/UnityEngine.ClothModule.dll": {},
           "ref/net472/UnityEngine.ClusterInputModule.dll": {},
           "ref/net472/UnityEngine.ClusterRendererModule.dll": {},
+          "ref/net472/UnityEngine.ContentLoadModule.dll": {},
           "ref/net472/UnityEngine.CoreModule.dll": {},
           "ref/net472/UnityEngine.CrashReportingModule.dll": {},
           "ref/net472/UnityEngine.DSPGraphModule.dll": {},
           "ref/net472/UnityEngine.DirectorModule.dll": {},
+          "ref/net472/UnityEngine.GIModule.dll": {},
           "ref/net472/UnityEngine.GameCenterModule.dll": {},
           "ref/net472/UnityEngine.GridModule.dll": {},
           "ref/net472/UnityEngine.HotReloadModule.dll": {},
@@ -155,11 +211,14 @@
           "ref/net472/UnityEngine.InputModule.dll": {},
           "ref/net472/UnityEngine.JSONSerializeModule.dll": {},
           "ref/net472/UnityEngine.LocalizationModule.dll": {},
+          "ref/net472/UnityEngine.NVIDIAModule.dll": {},
           "ref/net472/UnityEngine.ParticleSystemModule.dll": {},
           "ref/net472/UnityEngine.PerformanceReportingModule.dll": {},
           "ref/net472/UnityEngine.Physics2DModule.dll": {},
           "ref/net472/UnityEngine.PhysicsModule.dll": {},
           "ref/net472/UnityEngine.ProfilerModule.dll": {},
+          "ref/net472/UnityEngine.PropertiesModule.dll": {},
+          "ref/net472/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll": {},
           "ref/net472/UnityEngine.ScreenCaptureModule.dll": {},
           "ref/net472/UnityEngine.SharedInternalsModule.dll": {},
           "ref/net472/UnityEngine.SpriteMaskModule.dll": {},
@@ -170,16 +229,18 @@
           "ref/net472/UnityEngine.TLSModule.dll": {},
           "ref/net472/UnityEngine.TerrainModule.dll": {},
           "ref/net472/UnityEngine.TerrainPhysicsModule.dll": {},
-          "ref/net472/UnityEngine.TextCoreModule.dll": {},
+          "ref/net472/UnityEngine.TextCoreFontEngineModule.dll": {},
+          "ref/net472/UnityEngine.TextCoreTextEngineModule.dll": {},
           "ref/net472/UnityEngine.TextRenderingModule.dll": {},
           "ref/net472/UnityEngine.TilemapModule.dll": {},
           "ref/net472/UnityEngine.UI.dll": {},
           "ref/net472/UnityEngine.UIElementsModule.dll": {},
           "ref/net472/UnityEngine.UIModule.dll": {},
-          "ref/net472/UnityEngine.UNETModule.dll": {},
           "ref/net472/UnityEngine.UmbraModule.dll": {},
+          "ref/net472/UnityEngine.UnityAnalyticsCommonModule.dll": {},
           "ref/net472/UnityEngine.UnityAnalyticsModule.dll": {},
           "ref/net472/UnityEngine.UnityConnectModule.dll": {},
+          "ref/net472/UnityEngine.UnityCurlModule.dll": {},
           "ref/net472/UnityEngine.UnityTestProtocolModule.dll": {},
           "ref/net472/UnityEngine.UnityWebRequestAssetBundleModule.dll": {},
           "ref/net472/UnityEngine.UnityWebRequestAudioModule.dll": {},
@@ -190,14 +251,16 @@
           "ref/net472/UnityEngine.VRModule.dll": {},
           "ref/net472/UnityEngine.VehiclesModule.dll": {},
           "ref/net472/UnityEngine.VideoModule.dll": {},
+          "ref/net472/UnityEngine.VirtualTexturingModule.dll": {},
           "ref/net472/UnityEngine.WindModule.dll": {},
           "ref/net472/UnityEngine.XRModule.dll": {},
           "ref/net472/UnityEngine.dll": {},
           "ref/net472/com.rlabrecque.steamworks.net.dll": {},
-          "ref/net472/mscorlib.dll": {}
+          "ref/net472/mscorlib.dll": {},
+          "ref/net472/netstandard.dll": {}
         }
       },
-      "Lib.Harmony/2.3.3": {
+      "Lib.Harmony/2.3.6": {
         "type": "package",
         "compile": {
           "lib/net48/0Harmony.dll": {
@@ -207,35 +270,68 @@
         "runtime": {
           "lib/net48/0Harmony.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Lib.InGameWiki/16.0.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.IO.Compression",
+          "System.Net.Http",
+          "System.Runtime"
+        ],
+        "compile": {
+          "lib/net472/InGameWiki.dll": {}
+        },
+        "runtime": {
+          "lib/net472/InGameWiki.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/any/net472/Icon.ico": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
           }
         }
       }
     },
     ".NETFramework,Version=v4.8/win-arm64": {
-      "Krafs.Rimworld.Ref/1.5.4297": {
+      "Krafs.Rimworld.Ref/1.6.4528": {
         "type": "package",
         "compile": {
           "ref/net472/Assembly-CSharp-firstpass.dll": {},
           "ref/net472/Assembly-CSharp.dll": {},
           "ref/net472/ISharpZipLib.dll": {},
-          "ref/net472/Mono.Posix.dll": {},
           "ref/net472/Mono.Security.dll": {},
           "ref/net472/NAudio.dll": {},
           "ref/net472/NVorbis.dll": {},
           "ref/net472/System.ComponentModel.Composition.dll": {},
           "ref/net472/System.Configuration.dll": {},
           "ref/net472/System.Core.dll": {},
+          "ref/net472/System.Data.DataSetExtensions.dll": {},
+          "ref/net472/System.Data.dll": {},
+          "ref/net472/System.Drawing.dll": {},
+          "ref/net472/System.EnterpriseServices.dll": {},
+          "ref/net472/System.IO.Compression.FileSystem.dll": {},
+          "ref/net472/System.IO.Compression.dll": {},
+          "ref/net472/System.Net.Http.dll": {},
+          "ref/net472/System.Numerics.dll": {},
           "ref/net472/System.Runtime.Serialization.dll": {},
           "ref/net472/System.Runtime.dll": {},
           "ref/net472/System.Security.dll": {},
           "ref/net472/System.ServiceModel.Internals.dll": {},
+          "ref/net472/System.Transactions.dll": {},
           "ref/net472/System.Xml.Linq.dll": {},
           "ref/net472/System.Xml.dll": {},
           "ref/net472/System.dll": {},
+          "ref/net472/Unity.AI.Navigation.dll": {},
           "ref/net472/Unity.Burst.Unsafe.dll": {},
           "ref/net472/Unity.Burst.dll": {},
+          "ref/net472/Unity.Collections.LowLevel.ILSupport.dll": {},
+          "ref/net472/Unity.Collections.dll": {},
           "ref/net472/Unity.Mathematics.dll": {},
           "ref/net472/Unity.MemoryProfiler.dll": {},
+          "ref/net472/Unity.Profiling.Core.dll": {},
           "ref/net472/Unity.TextMeshPro.dll": {},
           "ref/net472/UnityEngine.AIModule.dll": {},
           "ref/net472/UnityEngine.ARModule.dll": {},
@@ -247,10 +343,12 @@
           "ref/net472/UnityEngine.ClothModule.dll": {},
           "ref/net472/UnityEngine.ClusterInputModule.dll": {},
           "ref/net472/UnityEngine.ClusterRendererModule.dll": {},
+          "ref/net472/UnityEngine.ContentLoadModule.dll": {},
           "ref/net472/UnityEngine.CoreModule.dll": {},
           "ref/net472/UnityEngine.CrashReportingModule.dll": {},
           "ref/net472/UnityEngine.DSPGraphModule.dll": {},
           "ref/net472/UnityEngine.DirectorModule.dll": {},
+          "ref/net472/UnityEngine.GIModule.dll": {},
           "ref/net472/UnityEngine.GameCenterModule.dll": {},
           "ref/net472/UnityEngine.GridModule.dll": {},
           "ref/net472/UnityEngine.HotReloadModule.dll": {},
@@ -260,11 +358,14 @@
           "ref/net472/UnityEngine.InputModule.dll": {},
           "ref/net472/UnityEngine.JSONSerializeModule.dll": {},
           "ref/net472/UnityEngine.LocalizationModule.dll": {},
+          "ref/net472/UnityEngine.NVIDIAModule.dll": {},
           "ref/net472/UnityEngine.ParticleSystemModule.dll": {},
           "ref/net472/UnityEngine.PerformanceReportingModule.dll": {},
           "ref/net472/UnityEngine.Physics2DModule.dll": {},
           "ref/net472/UnityEngine.PhysicsModule.dll": {},
           "ref/net472/UnityEngine.ProfilerModule.dll": {},
+          "ref/net472/UnityEngine.PropertiesModule.dll": {},
+          "ref/net472/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll": {},
           "ref/net472/UnityEngine.ScreenCaptureModule.dll": {},
           "ref/net472/UnityEngine.SharedInternalsModule.dll": {},
           "ref/net472/UnityEngine.SpriteMaskModule.dll": {},
@@ -275,16 +376,18 @@
           "ref/net472/UnityEngine.TLSModule.dll": {},
           "ref/net472/UnityEngine.TerrainModule.dll": {},
           "ref/net472/UnityEngine.TerrainPhysicsModule.dll": {},
-          "ref/net472/UnityEngine.TextCoreModule.dll": {},
+          "ref/net472/UnityEngine.TextCoreFontEngineModule.dll": {},
+          "ref/net472/UnityEngine.TextCoreTextEngineModule.dll": {},
           "ref/net472/UnityEngine.TextRenderingModule.dll": {},
           "ref/net472/UnityEngine.TilemapModule.dll": {},
           "ref/net472/UnityEngine.UI.dll": {},
           "ref/net472/UnityEngine.UIElementsModule.dll": {},
           "ref/net472/UnityEngine.UIModule.dll": {},
-          "ref/net472/UnityEngine.UNETModule.dll": {},
           "ref/net472/UnityEngine.UmbraModule.dll": {},
+          "ref/net472/UnityEngine.UnityAnalyticsCommonModule.dll": {},
           "ref/net472/UnityEngine.UnityAnalyticsModule.dll": {},
           "ref/net472/UnityEngine.UnityConnectModule.dll": {},
+          "ref/net472/UnityEngine.UnityCurlModule.dll": {},
           "ref/net472/UnityEngine.UnityTestProtocolModule.dll": {},
           "ref/net472/UnityEngine.UnityWebRequestAssetBundleModule.dll": {},
           "ref/net472/UnityEngine.UnityWebRequestAudioModule.dll": {},
@@ -295,14 +398,16 @@
           "ref/net472/UnityEngine.VRModule.dll": {},
           "ref/net472/UnityEngine.VehiclesModule.dll": {},
           "ref/net472/UnityEngine.VideoModule.dll": {},
+          "ref/net472/UnityEngine.VirtualTexturingModule.dll": {},
           "ref/net472/UnityEngine.WindModule.dll": {},
           "ref/net472/UnityEngine.XRModule.dll": {},
           "ref/net472/UnityEngine.dll": {},
           "ref/net472/com.rlabrecque.steamworks.net.dll": {},
-          "ref/net472/mscorlib.dll": {}
+          "ref/net472/mscorlib.dll": {},
+          "ref/net472/netstandard.dll": {}
         }
       },
-      "Lib.Harmony/2.3.3": {
+      "Lib.Harmony/2.3.6": {
         "type": "package",
         "compile": {
           "lib/net48/0Harmony.dll": {
@@ -312,35 +417,68 @@
         "runtime": {
           "lib/net48/0Harmony.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Lib.InGameWiki/16.0.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.IO.Compression",
+          "System.Net.Http",
+          "System.Runtime"
+        ],
+        "compile": {
+          "lib/net472/InGameWiki.dll": {}
+        },
+        "runtime": {
+          "lib/net472/InGameWiki.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/any/net472/Icon.ico": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
           }
         }
       }
     },
     ".NETFramework,Version=v4.8/win-x64": {
-      "Krafs.Rimworld.Ref/1.5.4297": {
+      "Krafs.Rimworld.Ref/1.6.4528": {
         "type": "package",
         "compile": {
           "ref/net472/Assembly-CSharp-firstpass.dll": {},
           "ref/net472/Assembly-CSharp.dll": {},
           "ref/net472/ISharpZipLib.dll": {},
-          "ref/net472/Mono.Posix.dll": {},
           "ref/net472/Mono.Security.dll": {},
           "ref/net472/NAudio.dll": {},
           "ref/net472/NVorbis.dll": {},
           "ref/net472/System.ComponentModel.Composition.dll": {},
           "ref/net472/System.Configuration.dll": {},
           "ref/net472/System.Core.dll": {},
+          "ref/net472/System.Data.DataSetExtensions.dll": {},
+          "ref/net472/System.Data.dll": {},
+          "ref/net472/System.Drawing.dll": {},
+          "ref/net472/System.EnterpriseServices.dll": {},
+          "ref/net472/System.IO.Compression.FileSystem.dll": {},
+          "ref/net472/System.IO.Compression.dll": {},
+          "ref/net472/System.Net.Http.dll": {},
+          "ref/net472/System.Numerics.dll": {},
           "ref/net472/System.Runtime.Serialization.dll": {},
           "ref/net472/System.Runtime.dll": {},
           "ref/net472/System.Security.dll": {},
           "ref/net472/System.ServiceModel.Internals.dll": {},
+          "ref/net472/System.Transactions.dll": {},
           "ref/net472/System.Xml.Linq.dll": {},
           "ref/net472/System.Xml.dll": {},
           "ref/net472/System.dll": {},
+          "ref/net472/Unity.AI.Navigation.dll": {},
           "ref/net472/Unity.Burst.Unsafe.dll": {},
           "ref/net472/Unity.Burst.dll": {},
+          "ref/net472/Unity.Collections.LowLevel.ILSupport.dll": {},
+          "ref/net472/Unity.Collections.dll": {},
           "ref/net472/Unity.Mathematics.dll": {},
           "ref/net472/Unity.MemoryProfiler.dll": {},
+          "ref/net472/Unity.Profiling.Core.dll": {},
           "ref/net472/Unity.TextMeshPro.dll": {},
           "ref/net472/UnityEngine.AIModule.dll": {},
           "ref/net472/UnityEngine.ARModule.dll": {},
@@ -352,10 +490,12 @@
           "ref/net472/UnityEngine.ClothModule.dll": {},
           "ref/net472/UnityEngine.ClusterInputModule.dll": {},
           "ref/net472/UnityEngine.ClusterRendererModule.dll": {},
+          "ref/net472/UnityEngine.ContentLoadModule.dll": {},
           "ref/net472/UnityEngine.CoreModule.dll": {},
           "ref/net472/UnityEngine.CrashReportingModule.dll": {},
           "ref/net472/UnityEngine.DSPGraphModule.dll": {},
           "ref/net472/UnityEngine.DirectorModule.dll": {},
+          "ref/net472/UnityEngine.GIModule.dll": {},
           "ref/net472/UnityEngine.GameCenterModule.dll": {},
           "ref/net472/UnityEngine.GridModule.dll": {},
           "ref/net472/UnityEngine.HotReloadModule.dll": {},
@@ -365,11 +505,14 @@
           "ref/net472/UnityEngine.InputModule.dll": {},
           "ref/net472/UnityEngine.JSONSerializeModule.dll": {},
           "ref/net472/UnityEngine.LocalizationModule.dll": {},
+          "ref/net472/UnityEngine.NVIDIAModule.dll": {},
           "ref/net472/UnityEngine.ParticleSystemModule.dll": {},
           "ref/net472/UnityEngine.PerformanceReportingModule.dll": {},
           "ref/net472/UnityEngine.Physics2DModule.dll": {},
           "ref/net472/UnityEngine.PhysicsModule.dll": {},
           "ref/net472/UnityEngine.ProfilerModule.dll": {},
+          "ref/net472/UnityEngine.PropertiesModule.dll": {},
+          "ref/net472/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll": {},
           "ref/net472/UnityEngine.ScreenCaptureModule.dll": {},
           "ref/net472/UnityEngine.SharedInternalsModule.dll": {},
           "ref/net472/UnityEngine.SpriteMaskModule.dll": {},
@@ -380,16 +523,18 @@
           "ref/net472/UnityEngine.TLSModule.dll": {},
           "ref/net472/UnityEngine.TerrainModule.dll": {},
           "ref/net472/UnityEngine.TerrainPhysicsModule.dll": {},
-          "ref/net472/UnityEngine.TextCoreModule.dll": {},
+          "ref/net472/UnityEngine.TextCoreFontEngineModule.dll": {},
+          "ref/net472/UnityEngine.TextCoreTextEngineModule.dll": {},
           "ref/net472/UnityEngine.TextRenderingModule.dll": {},
           "ref/net472/UnityEngine.TilemapModule.dll": {},
           "ref/net472/UnityEngine.UI.dll": {},
           "ref/net472/UnityEngine.UIElementsModule.dll": {},
           "ref/net472/UnityEngine.UIModule.dll": {},
-          "ref/net472/UnityEngine.UNETModule.dll": {},
           "ref/net472/UnityEngine.UmbraModule.dll": {},
+          "ref/net472/UnityEngine.UnityAnalyticsCommonModule.dll": {},
           "ref/net472/UnityEngine.UnityAnalyticsModule.dll": {},
           "ref/net472/UnityEngine.UnityConnectModule.dll": {},
+          "ref/net472/UnityEngine.UnityCurlModule.dll": {},
           "ref/net472/UnityEngine.UnityTestProtocolModule.dll": {},
           "ref/net472/UnityEngine.UnityWebRequestAssetBundleModule.dll": {},
           "ref/net472/UnityEngine.UnityWebRequestAudioModule.dll": {},
@@ -400,14 +545,16 @@
           "ref/net472/UnityEngine.VRModule.dll": {},
           "ref/net472/UnityEngine.VehiclesModule.dll": {},
           "ref/net472/UnityEngine.VideoModule.dll": {},
+          "ref/net472/UnityEngine.VirtualTexturingModule.dll": {},
           "ref/net472/UnityEngine.WindModule.dll": {},
           "ref/net472/UnityEngine.XRModule.dll": {},
           "ref/net472/UnityEngine.dll": {},
           "ref/net472/com.rlabrecque.steamworks.net.dll": {},
-          "ref/net472/mscorlib.dll": {}
+          "ref/net472/mscorlib.dll": {},
+          "ref/net472/netstandard.dll": {}
         }
       },
-      "Lib.Harmony/2.3.3": {
+      "Lib.Harmony/2.3.6": {
         "type": "package",
         "compile": {
           "lib/net48/0Harmony.dll": {
@@ -417,35 +564,68 @@
         "runtime": {
           "lib/net48/0Harmony.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Lib.InGameWiki/16.0.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.IO.Compression",
+          "System.Net.Http",
+          "System.Runtime"
+        ],
+        "compile": {
+          "lib/net472/InGameWiki.dll": {}
+        },
+        "runtime": {
+          "lib/net472/InGameWiki.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/any/net472/Icon.ico": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
           }
         }
       }
     },
     ".NETFramework,Version=v4.8/win-x86": {
-      "Krafs.Rimworld.Ref/1.5.4297": {
+      "Krafs.Rimworld.Ref/1.6.4528": {
         "type": "package",
         "compile": {
           "ref/net472/Assembly-CSharp-firstpass.dll": {},
           "ref/net472/Assembly-CSharp.dll": {},
           "ref/net472/ISharpZipLib.dll": {},
-          "ref/net472/Mono.Posix.dll": {},
           "ref/net472/Mono.Security.dll": {},
           "ref/net472/NAudio.dll": {},
           "ref/net472/NVorbis.dll": {},
           "ref/net472/System.ComponentModel.Composition.dll": {},
           "ref/net472/System.Configuration.dll": {},
           "ref/net472/System.Core.dll": {},
+          "ref/net472/System.Data.DataSetExtensions.dll": {},
+          "ref/net472/System.Data.dll": {},
+          "ref/net472/System.Drawing.dll": {},
+          "ref/net472/System.EnterpriseServices.dll": {},
+          "ref/net472/System.IO.Compression.FileSystem.dll": {},
+          "ref/net472/System.IO.Compression.dll": {},
+          "ref/net472/System.Net.Http.dll": {},
+          "ref/net472/System.Numerics.dll": {},
           "ref/net472/System.Runtime.Serialization.dll": {},
           "ref/net472/System.Runtime.dll": {},
           "ref/net472/System.Security.dll": {},
           "ref/net472/System.ServiceModel.Internals.dll": {},
+          "ref/net472/System.Transactions.dll": {},
           "ref/net472/System.Xml.Linq.dll": {},
           "ref/net472/System.Xml.dll": {},
           "ref/net472/System.dll": {},
+          "ref/net472/Unity.AI.Navigation.dll": {},
           "ref/net472/Unity.Burst.Unsafe.dll": {},
           "ref/net472/Unity.Burst.dll": {},
+          "ref/net472/Unity.Collections.LowLevel.ILSupport.dll": {},
+          "ref/net472/Unity.Collections.dll": {},
           "ref/net472/Unity.Mathematics.dll": {},
           "ref/net472/Unity.MemoryProfiler.dll": {},
+          "ref/net472/Unity.Profiling.Core.dll": {},
           "ref/net472/Unity.TextMeshPro.dll": {},
           "ref/net472/UnityEngine.AIModule.dll": {},
           "ref/net472/UnityEngine.ARModule.dll": {},
@@ -457,10 +637,12 @@
           "ref/net472/UnityEngine.ClothModule.dll": {},
           "ref/net472/UnityEngine.ClusterInputModule.dll": {},
           "ref/net472/UnityEngine.ClusterRendererModule.dll": {},
+          "ref/net472/UnityEngine.ContentLoadModule.dll": {},
           "ref/net472/UnityEngine.CoreModule.dll": {},
           "ref/net472/UnityEngine.CrashReportingModule.dll": {},
           "ref/net472/UnityEngine.DSPGraphModule.dll": {},
           "ref/net472/UnityEngine.DirectorModule.dll": {},
+          "ref/net472/UnityEngine.GIModule.dll": {},
           "ref/net472/UnityEngine.GameCenterModule.dll": {},
           "ref/net472/UnityEngine.GridModule.dll": {},
           "ref/net472/UnityEngine.HotReloadModule.dll": {},
@@ -470,11 +652,14 @@
           "ref/net472/UnityEngine.InputModule.dll": {},
           "ref/net472/UnityEngine.JSONSerializeModule.dll": {},
           "ref/net472/UnityEngine.LocalizationModule.dll": {},
+          "ref/net472/UnityEngine.NVIDIAModule.dll": {},
           "ref/net472/UnityEngine.ParticleSystemModule.dll": {},
           "ref/net472/UnityEngine.PerformanceReportingModule.dll": {},
           "ref/net472/UnityEngine.Physics2DModule.dll": {},
           "ref/net472/UnityEngine.PhysicsModule.dll": {},
           "ref/net472/UnityEngine.ProfilerModule.dll": {},
+          "ref/net472/UnityEngine.PropertiesModule.dll": {},
+          "ref/net472/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll": {},
           "ref/net472/UnityEngine.ScreenCaptureModule.dll": {},
           "ref/net472/UnityEngine.SharedInternalsModule.dll": {},
           "ref/net472/UnityEngine.SpriteMaskModule.dll": {},
@@ -485,16 +670,18 @@
           "ref/net472/UnityEngine.TLSModule.dll": {},
           "ref/net472/UnityEngine.TerrainModule.dll": {},
           "ref/net472/UnityEngine.TerrainPhysicsModule.dll": {},
-          "ref/net472/UnityEngine.TextCoreModule.dll": {},
+          "ref/net472/UnityEngine.TextCoreFontEngineModule.dll": {},
+          "ref/net472/UnityEngine.TextCoreTextEngineModule.dll": {},
           "ref/net472/UnityEngine.TextRenderingModule.dll": {},
           "ref/net472/UnityEngine.TilemapModule.dll": {},
           "ref/net472/UnityEngine.UI.dll": {},
           "ref/net472/UnityEngine.UIElementsModule.dll": {},
           "ref/net472/UnityEngine.UIModule.dll": {},
-          "ref/net472/UnityEngine.UNETModule.dll": {},
           "ref/net472/UnityEngine.UmbraModule.dll": {},
+          "ref/net472/UnityEngine.UnityAnalyticsCommonModule.dll": {},
           "ref/net472/UnityEngine.UnityAnalyticsModule.dll": {},
           "ref/net472/UnityEngine.UnityConnectModule.dll": {},
+          "ref/net472/UnityEngine.UnityCurlModule.dll": {},
           "ref/net472/UnityEngine.UnityTestProtocolModule.dll": {},
           "ref/net472/UnityEngine.UnityWebRequestAssetBundleModule.dll": {},
           "ref/net472/UnityEngine.UnityWebRequestAudioModule.dll": {},
@@ -505,14 +692,16 @@
           "ref/net472/UnityEngine.VRModule.dll": {},
           "ref/net472/UnityEngine.VehiclesModule.dll": {},
           "ref/net472/UnityEngine.VideoModule.dll": {},
+          "ref/net472/UnityEngine.VirtualTexturingModule.dll": {},
           "ref/net472/UnityEngine.WindModule.dll": {},
           "ref/net472/UnityEngine.XRModule.dll": {},
           "ref/net472/UnityEngine.dll": {},
           "ref/net472/com.rlabrecque.steamworks.net.dll": {},
-          "ref/net472/mscorlib.dll": {}
+          "ref/net472/mscorlib.dll": {},
+          "ref/net472/netstandard.dll": {}
         }
       },
-      "Lib.Harmony/2.3.3": {
+      "Lib.Harmony/2.3.6": {
         "type": "package",
         "compile": {
           "lib/net48/0Harmony.dll": {
@@ -522,45 +711,78 @@
         "runtime": {
           "lib/net48/0Harmony.dll": {
             "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Lib.InGameWiki/16.0.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.IO.Compression",
+          "System.Net.Http",
+          "System.Runtime"
+        ],
+        "compile": {
+          "lib/net472/InGameWiki.dll": {}
+        },
+        "runtime": {
+          "lib/net472/InGameWiki.dll": {}
+        },
+        "contentFiles": {
+          "contentFiles/any/net472/Icon.ico": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
           }
         }
       }
     }
   },
   "libraries": {
-    "Krafs.Rimworld.Ref/1.5.4297": {
-      "sha512": "uhY1DK8YQB55IamhyOus6A//S47F93JiOe5ORBv+KnN9HNOanAQY8TaBMKpJKhdZj2GHYny/7rZixjv4DAKYMQ==",
+    "Krafs.Rimworld.Ref/1.6.4528": {
+      "sha512": "u3jrQRxNBk1fEJ+64phjdOUYy60MGUvGegeMwLlZs64wX57Zh6Qz6eDZEHdOrO7tSWDL+riOboD17QKobUu+OA==",
       "type": "package",
-      "path": "krafs.rimworld.ref/1.5.4297",
+      "path": "krafs.rimworld.ref/1.6.4528",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
         "README.md",
         "icon.png",
-        "krafs.rimworld.ref.1.5.4297.nupkg.sha512",
+        "krafs.rimworld.ref.1.6.4528.nupkg.sha512",
         "krafs.rimworld.ref.nuspec",
         "ref/net472/Assembly-CSharp-firstpass.dll",
         "ref/net472/Assembly-CSharp.dll",
         "ref/net472/ISharpZipLib.dll",
-        "ref/net472/Mono.Posix.dll",
         "ref/net472/Mono.Security.dll",
         "ref/net472/NAudio.dll",
         "ref/net472/NVorbis.dll",
         "ref/net472/System.ComponentModel.Composition.dll",
         "ref/net472/System.Configuration.dll",
         "ref/net472/System.Core.dll",
+        "ref/net472/System.Data.DataSetExtensions.dll",
+        "ref/net472/System.Data.dll",
+        "ref/net472/System.Drawing.dll",
+        "ref/net472/System.EnterpriseServices.dll",
+        "ref/net472/System.IO.Compression.FileSystem.dll",
+        "ref/net472/System.IO.Compression.dll",
+        "ref/net472/System.Net.Http.dll",
+        "ref/net472/System.Numerics.dll",
         "ref/net472/System.Runtime.Serialization.dll",
         "ref/net472/System.Runtime.dll",
         "ref/net472/System.Security.dll",
         "ref/net472/System.ServiceModel.Internals.dll",
+        "ref/net472/System.Transactions.dll",
         "ref/net472/System.Xml.Linq.dll",
         "ref/net472/System.Xml.dll",
         "ref/net472/System.dll",
+        "ref/net472/Unity.AI.Navigation.dll",
         "ref/net472/Unity.Burst.Unsafe.dll",
         "ref/net472/Unity.Burst.dll",
+        "ref/net472/Unity.Collections.LowLevel.ILSupport.dll",
+        "ref/net472/Unity.Collections.dll",
         "ref/net472/Unity.Mathematics.dll",
         "ref/net472/Unity.MemoryProfiler.dll",
+        "ref/net472/Unity.Profiling.Core.dll",
         "ref/net472/Unity.TextMeshPro.dll",
         "ref/net472/UnityEngine.AIModule.dll",
         "ref/net472/UnityEngine.ARModule.dll",
@@ -572,10 +794,12 @@
         "ref/net472/UnityEngine.ClothModule.dll",
         "ref/net472/UnityEngine.ClusterInputModule.dll",
         "ref/net472/UnityEngine.ClusterRendererModule.dll",
+        "ref/net472/UnityEngine.ContentLoadModule.dll",
         "ref/net472/UnityEngine.CoreModule.dll",
         "ref/net472/UnityEngine.CrashReportingModule.dll",
         "ref/net472/UnityEngine.DSPGraphModule.dll",
         "ref/net472/UnityEngine.DirectorModule.dll",
+        "ref/net472/UnityEngine.GIModule.dll",
         "ref/net472/UnityEngine.GameCenterModule.dll",
         "ref/net472/UnityEngine.GridModule.dll",
         "ref/net472/UnityEngine.HotReloadModule.dll",
@@ -585,11 +809,14 @@
         "ref/net472/UnityEngine.InputModule.dll",
         "ref/net472/UnityEngine.JSONSerializeModule.dll",
         "ref/net472/UnityEngine.LocalizationModule.dll",
+        "ref/net472/UnityEngine.NVIDIAModule.dll",
         "ref/net472/UnityEngine.ParticleSystemModule.dll",
         "ref/net472/UnityEngine.PerformanceReportingModule.dll",
         "ref/net472/UnityEngine.Physics2DModule.dll",
         "ref/net472/UnityEngine.PhysicsModule.dll",
         "ref/net472/UnityEngine.ProfilerModule.dll",
+        "ref/net472/UnityEngine.PropertiesModule.dll",
+        "ref/net472/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
         "ref/net472/UnityEngine.ScreenCaptureModule.dll",
         "ref/net472/UnityEngine.SharedInternalsModule.dll",
         "ref/net472/UnityEngine.SpriteMaskModule.dll",
@@ -600,16 +827,18 @@
         "ref/net472/UnityEngine.TLSModule.dll",
         "ref/net472/UnityEngine.TerrainModule.dll",
         "ref/net472/UnityEngine.TerrainPhysicsModule.dll",
-        "ref/net472/UnityEngine.TextCoreModule.dll",
+        "ref/net472/UnityEngine.TextCoreFontEngineModule.dll",
+        "ref/net472/UnityEngine.TextCoreTextEngineModule.dll",
         "ref/net472/UnityEngine.TextRenderingModule.dll",
         "ref/net472/UnityEngine.TilemapModule.dll",
         "ref/net472/UnityEngine.UI.dll",
         "ref/net472/UnityEngine.UIElementsModule.dll",
         "ref/net472/UnityEngine.UIModule.dll",
-        "ref/net472/UnityEngine.UNETModule.dll",
         "ref/net472/UnityEngine.UmbraModule.dll",
+        "ref/net472/UnityEngine.UnityAnalyticsCommonModule.dll",
         "ref/net472/UnityEngine.UnityAnalyticsModule.dll",
         "ref/net472/UnityEngine.UnityConnectModule.dll",
+        "ref/net472/UnityEngine.UnityCurlModule.dll",
         "ref/net472/UnityEngine.UnityTestProtocolModule.dll",
         "ref/net472/UnityEngine.UnityWebRequestAssetBundleModule.dll",
         "ref/net472/UnityEngine.UnityWebRequestAudioModule.dll",
@@ -620,24 +849,26 @@
         "ref/net472/UnityEngine.VRModule.dll",
         "ref/net472/UnityEngine.VehiclesModule.dll",
         "ref/net472/UnityEngine.VideoModule.dll",
+        "ref/net472/UnityEngine.VirtualTexturingModule.dll",
         "ref/net472/UnityEngine.WindModule.dll",
         "ref/net472/UnityEngine.XRModule.dll",
         "ref/net472/UnityEngine.dll",
         "ref/net472/com.rlabrecque.steamworks.net.dll",
-        "ref/net472/mscorlib.dll"
+        "ref/net472/mscorlib.dll",
+        "ref/net472/netstandard.dll"
       ]
     },
-    "Lib.Harmony/2.3.3": {
-      "sha512": "qxO8d2q7luoY8mTfCStQFOgRSd3dWZSS0Ffi5nrjX4qFkZxEBAEvNh5b/ZejTl2kY0fJs62LmfRJkBBTeiuuyQ==",
+    "Lib.Harmony/2.3.6": {
+      "sha512": "HqXPz33Z+R8ZDCLS5pJZthg33AMdF1bQXUbz2V7Neb9E+sMQOf4S1wquhM4pLIZFX7BZcOQubclbVreiM1+qmw==",
       "type": "package",
-      "path": "lib.harmony/2.3.3",
+      "path": "lib.harmony/2.3.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "HarmonyLogo.png",
         "LICENSE",
         "README.md",
-        "lib.harmony.2.3.3.nupkg.sha512",
+        "lib.harmony.2.3.6.nupkg.sha512",
         "lib.harmony.nuspec",
         "lib/net35/0Harmony.dll",
         "lib/net35/0Harmony.pdb",
@@ -663,6 +894,9 @@
         "lib/net8.0/0Harmony.dll",
         "lib/net8.0/0Harmony.pdb",
         "lib/net8.0/0Harmony.xml",
+        "lib/net9.0/0Harmony.dll",
+        "lib/net9.0/0Harmony.pdb",
+        "lib/net9.0/0Harmony.xml",
         "lib/netcoreapp3.0/0Harmony.dll",
         "lib/netcoreapp3.0/0Harmony.pdb",
         "lib/netcoreapp3.0/0Harmony.xml",
@@ -671,12 +905,28 @@
         "lib/netcoreapp3.1/0Harmony.xml",
         "lib/netstandard2.0/_._"
       ]
+    },
+    "Lib.InGameWiki/16.0.1": {
+      "sha512": "MElvP6Fwa7ohqes/3TzQQ9VSPbfpCRmWI9eH7IwXrcKIvCvwF+kIAtnWwzZB3HDkZAAz/3RUPOkNslyqyrB+fw==",
+      "type": "package",
+      "path": "lib.ingamewiki/16.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "content/Icon.ico",
+        "contentFiles/any/net472/Icon.ico",
+        "lib.ingamewiki.16.0.1.nupkg.sha512",
+        "lib.ingamewiki.nuspec",
+        "lib/net472/InGameWiki.dll"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.8": [
-      "Krafs.Rimworld.Ref >= 1.5.4297",
-      "Lib.Harmony >= 2.3.3"
+      "Krafs.Rimworld.Ref >= 1.6.4528",
+      "Lib.Harmony >= 2.3.6",
+      "Lib.InGameWiki >= 16.0.1"
     ]
   },
   "packageFolders": {
@@ -719,11 +969,15 @@
         "dependencies": {
           "Krafs.Rimworld.Ref": {
             "target": "Package",
-            "version": "[1.5.4297, )"
+            "version": "[1.6.4528, )"
           },
           "Lib.Harmony": {
             "target": "Package",
-            "version": "[2.3.3, )"
+            "version": "[2.3.6, )"
+          },
+          "Lib.InGameWiki": {
+            "target": "Package",
+            "version": "[16.0.1, )"
           }
         }
       }

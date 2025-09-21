@@ -1,13 +1,10 @@
-﻿using System;
+﻿using RimWorld;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using Verse;
-using Verse.AI;
-using Verse.AI.Group;
-using Verse.Sound;
-using RimWorld;
-using static HarmonyLib.Code;
 using System.Text;
+using Verse;
+using Verse.Sound;
 
 
 namespace JHE2PlantExtension
@@ -59,9 +56,11 @@ namespace JHE2PlantExtension
                 if ((Props.maxSpawnedPawnsPoints < 0f || SpawnedPawnsPoints < Props.maxSpawnedPawnsPoints) && TrySpawnPawn(out var pawn) && pawn.caller != null)
                 {
                     pawn.caller.DoCall();
-
                 }
-                CalculateNextPawnSpawnTick();
+                nextPawnSpawnTick = Find.TickManager.TicksGame + (int)(Props.pawnSpawnIntervalDays.RandomInRange * 60000f);
+                Log.Message(nextPawnSpawnTick);
+                Log.Message(Props.pawnSpawnIntervalDays);
+              //  CalculateNextPawnSpawnTick(Props.pawnSpawnIntervalDays.RandomInRange * 30f);
             }
         }
         private void FilterOutUnspawnedPawns()
@@ -74,18 +73,22 @@ namespace JHE2PlantExtension
                 }
             }
         }
-        private void CalculateNextPawnSpawnTick()
-        {
-            CalculateNextPawnSpawnTick(Props.pawnSpawnIntervalDays.RandomInRange * 30f);
-        }
+      //  private void CalculateNextPawnSpawnTick()
+   //     {
+      //      CalculateNextPawnSpawnTick(Props.pawnSpawnIntervalDays.RandomInRange * 30f);
+     //   }
 
+        ///  public void NewCalculateNextPawnSpawnTick(float delayTicks)
+        //   {
+        //       nextPawnSpawnTick = Find.TickManager.TicksGame + (int)delayTicks;
+        //   }
         private bool TrySpawnPawn(out Pawn pawn)
         {
             if (!canSpawnPawns)
             {
                 pawn = null;
                 return false;
-                
+
             }
             if (!Props.chooseSingleTypeToSpawn)
             {
@@ -112,22 +115,12 @@ namespace JHE2PlantExtension
             spawnedPawns.Add(pawn);
             GenSpawn.Spawn(pawn, CellFinder.RandomClosewalkCellNear(parent.Position, parent.Map, Props.pawnSpawnRadius), parent.Map);
             pawn.connections?.ConnectTo(parent);
-            Lord lord = Lord;
-            if (lord == null)
-            {
-                lord = CreateNewLord(parent, aggressive, Props.defendRadius, Props.lordJob);
-            }
-            lord.AddPawn(pawn);
-            if (Props.spawnSound != null)
-            {
-                Props.spawnSound.PlayOneShot(parent);
-            }
+            (Lord ?? CreateNewLord(parent, aggressive, Props.defendRadius, Props.lordJob)).AddPawn(pawn);
+            Props.spawnSound?.PlayOneShot(parent);
             if (pawnsLeftToSpawn > 0)
             {
                 pawnsLeftToSpawn--;
             }
-            Log.Message($"maxspawnpoints:{Props.maxSpawnedPawnsPoints}");
-            Log.Message($"spawnedpawnpoints:{SpawnedPawnsPoints}");
             SendMessage();
             return true;
         }
@@ -135,19 +128,20 @@ namespace JHE2PlantExtension
         {
             StringBuilder stringBuilder = new StringBuilder();
             stringBuilder.Append(base.CompInspectStringExtra());
+            int maxpoints = (int)Math.Floor(Props.maxSpawnedPawnsPoints / 40);
             if (stringBuilder.Length > 0)
             {
                 stringBuilder.AppendLine();
             }
-            if (SpawnedPawnsPoints < Props.maxSpawnedPawnsPoints)
+            if (Math.Floor(SpawnedPawnsPoints / 40) < Math.Floor(Props.maxSpawnedPawnsPoints / 40))
             {
-                stringBuilder.Append("JHE2_AutoSpawningNext".Translate((nextPawnSpawnTick - Find.TickManager.TicksGame).ToStringTicksToDays() + " " + (SpawnedPawnsPoints) / 40 + "/" + (Props.maxSpawnedPawnsPoints) / 40) );
+                stringBuilder.Append("JHE2_AutoSpawningNext".Translate((nextPawnSpawnTick - Find.TickManager.TicksGame).ToStringTicksToDays() + " " + (SpawnedPawnsPoints) / 40 + "/" + Math.Floor((Props.maxSpawnedPawnsPoints) / 40)));
             }
             else
             {
-                stringBuilder.Append("JHE2_AutoSpawningCan".Translate() + " " + (SpawnedPawnsPoints) / 40 + "/" + (Props.maxSpawnedPawnsPoints) / 40);
+                stringBuilder.Append("JHE2_AutoSpawningCan".Translate() + " " + maxpoints + "/" + maxpoints);
             }
-            
+
             return stringBuilder.ToString();
         }
     }

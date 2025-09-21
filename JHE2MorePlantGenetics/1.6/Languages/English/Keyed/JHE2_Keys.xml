@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+ <JHE2_AutoSowingCan>Growth below minimum</JHE2_AutoSowingCan>
+  <JHE2_AutoSowingNext>Auto sowing: Next in {0}</JHE2_AutoSowingNext>
+ <JHE2_AutoSpawningNext>Spawning: Next in {0}</JHE2_AutoSpawningNext>
+ <JHE2_AutoSpawningCan>Spawned max Gaurens</JHE2_AutoSpawningCan>
+ <JHE2_Tempeture_Goal>Target temperature:</JHE2_Tempeture_Goal>
+</LanguageData>

@@ -1,0 +1,11 @@
+ID: JHE2_Gourmet_Wiki
+Title:Gourmet
+Description: Replaces plant product to the ravitsera fungus and decreases harvest amount by 0.25x
+
+ENDTAGS
+#Plants with this trait can be bred to produce sugars favoured by the ravitsera fungus, causing it to overgrow the plant's produce. This fungus grows less produce than the plant's regular product
+<b><color=\#ea1b1b>Does not stack</color></b>
+<b><color=\#9d0303>Overrides</color></b> - Ambrosia
+<b><color=\#893ab4>Produce</color></b>
+#
+@JHE2_bigfruit@

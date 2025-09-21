@@ -1,0 +1,10 @@
+ID: JHE2_Winter_Wiki
+Description: Decreases minimum optimal growth temperature by 5 degrees, and minimum growth temperature by 10 degrees
+
+Title:Winter
+ENDTAGS
+#Plants with this trait can be bred to be more accustomed to cold temperatures.
+<b><color=\#09e530>Stacks</color></b>
+
+From base mod
+#

@@ -88,6 +88,8 @@ namespace JHE2PlantExtension
                             clone.plant.growOptimalGlow *= cloneData.Trait.statmultiplier;
                             clone.plant.growMinGlow *= cloneData.Trait.statmultiplier;
                             clone.plant.cavePlant = true;
+                            clone.plant.diesToLight = true;
+                            clone.plant.dieIfNoSunlight = false;
                             break;
                         }
                     case "straight":
@@ -102,21 +104,23 @@ namespace JHE2PlantExtension
                     case "growOptimalGlowSun":
                         {
                             PlantProperties plant = clone.plant;
-                            clone.plant.growOptimalGlow = 100f;
-                            clone.plant.growMinGlow = 51f;
+                            clone.plant.growOptimalGlow = 1f;
+                            clone.plant.growMinGlow = 0.51f;
                             clone.plant.cavePlant = false;
+                            clone.plant.diesToLight = false;
+                            clone.plant.dieIfNoSunlight = true;
                             break;
                         }
                     case "pollution":
                         {
                             PlantProperties plant = clone.plant;
-                            if (clone.plant.pollution == (Pollution.PollutedOnly))
+                            if (plant.pollution == (Pollution.PollutedOnly))
                             {
-                                clone.plant.pollution = Pollution.Any;
+                                plant.pollution = Pollution.Any;
                             }
                             else
                             {
-                                clone.plant.pollution = Pollution.PollutedOnly;
+                                plant.pollution = Pollution.PollutedOnly;
                             }
                             break;
                         }
@@ -136,7 +140,7 @@ namespace JHE2PlantExtension
                             else
                             {
 
-                                oldcomp.glowRadius *= cloneData.Trait.statmultiplier;
+                                oldcomp.glowRadius *= 1.5f;
 
                             }
                             break;
@@ -152,14 +156,15 @@ namespace JHE2PlantExtension
                             {
                                 comp.heatPerSecond = 0.05f;
                                 comp.heatPushMaxTemperature = 25f;
+                                comp.heatPushMinTemperature = 10f;
                                 comp.compClass = typeof(CompHeatPusherPlants);
                                 clone.comps.Add(comp);
                             }
                             else
                             {
 
-                                oldcomp.heatPerSecond *= cloneData.Trait.statmultiplier; ;
-                                oldcomp.heatPushMaxTemperature *= cloneData.Trait.statmultiplier;
+                                oldcomp.heatPerSecond += cloneData.Trait.statmultiplier; ;
+                                oldcomp.heatPushMaxTemperature += 2f;
                             }
                             break;
                         }
@@ -172,16 +177,16 @@ namespace JHE2PlantExtension
 
                             if (oldcomp == null)
                             {
-                                comp.heatPerSecond = 0.05f;
-                                comp.heatPushMaxTemperature = 10f;
+                                comp.heatPerSecond = -0.05f;
+                                comp.heatPushMinTemperature = 10f;
+                                comp.heatPushMaxTemperature = 25f;
                                 comp.compClass = typeof(CompHeatPusherPlants);
                                 clone.comps.Add(comp);
                             }
                             else
-                            {
-
-                                oldcomp.heatPerSecond *= cloneData.Trait.statmultiplier;
-                                oldcomp.heatPushMaxTemperature *= 0.5f;
+                            {                                
+                                    oldcomp.heatPerSecond += cloneData.Trait.statmultiplier;
+                                    oldcomp.heatPushMinTemperature -= 2f;
                             }
                             break;
                         }
@@ -194,8 +199,9 @@ namespace JHE2PlantExtension
 
                             if (oldcomp == null)
                             {
-                                comp.ticksPerHeal = 200;
+                                comp.ticksPerHeal = 6000;
                                 clone.comps.Add(comp);
+                                //2000 = 30hp a day, 4000-15,20000-3,10000-6
                             }
                             else
                             {
@@ -215,7 +221,8 @@ namespace JHE2PlantExtension
                             {
                                 comp.radius = 1.9f;
                                 comp.pumpsPerWastepack = 2;
-                                comp.intervalTicks = 1800;
+                                comp.intervalTicks = 6000;
+                                //2000 = 24 hours
                                 comp.pumpEffecterDef = EffecterDefOf.CellPollution_Performant;
                                 comp.compClass = typeof(CompPollutionPumpPlant);
                                 clone.comps.Add(comp);
@@ -239,7 +246,7 @@ namespace JHE2PlantExtension
                             if (oldcomp == null)
                             {
                                 comp.radius = 1.9f;
-                                comp.pollutionIntervalTicks = 60;
+                                comp.pollutionIntervalTicks = 180;
                                 comp.cellsToPollute = 1;
                                 comp.compClass = typeof(CompToxifierPlant);
                                 clone.comps.Add(comp);
@@ -485,7 +492,7 @@ namespace JHE2PlantExtension
                     case "pottable":
                         {
                             PlantProperties plant = clone.plant;
-
+                           //if plant.sowTags.Empty(){ }
                             if (!clone.plant.sowTags.Contains("Decorative"))
                             {
                                 clone.plant.sowTags.Add("Decorative");
@@ -497,9 +504,9 @@ namespace JHE2PlantExtension
                         {
                             PlantProperties plant = clone.plant;
 
-                            if (!clone.plant.sowTags.Contains("Hydroponic"))
+                            if (!plant.sowTags.Contains("Hydroponic"))
                             {
-                                clone.plant.sowTags.Add("Hydroponic");
+                                plant.sowTags.Add("Hydroponic");
                             }
                             break;
                         }
@@ -556,8 +563,55 @@ namespace JHE2PlantExtension
                             }
                             break;
                         }
+                    case "newWinter":
+                        {
+                            PlantProperties plant = clone.plant;
+                            plant.minOptimalGrowthTemperature -= 5;
+                            plant.minGrowthTemperature -= 10;
+                            break;
+                        }
+                    case "newSaharan":
+                        {
+                            PlantProperties plant = clone.plant;
+                            plant.maxOptimalGrowthTemperature += 5;
+                            plant.maxGrowthTemperature += 10;
+                            break;
+                        }
+                    case "Cleanliness":
+                        {
+                            PlantProperties plant = clone.plant;
+                            float mycleanliness = clone.GetStatValueAbstract(StatDefOf.Cleanliness);
+                            if (mycleanliness == 0) // || clone.GetStatValueAbstract(StatDefOf.Cleanliness) == null)
+                            {
+                                clone.SetStatBaseValue(StatDefOf.Cleanliness,0.1f);
 
-
+                            }
+                            else
+                            {
+                                clone.SetStatBaseValue(StatDefOf.Cleanliness, (mycleanliness*=1.1f));
+                            }
+                            break;
+                        }
+                    case "TerrorSource":
+                        {
+                            PlantProperties plant = clone.plant;
+                            float mycleanliness = clone.GetStatValueAbstract(StatDefOf.TerrorSource);
+                            if (mycleanliness == 0) // || clone.GetStatValueAbstract(StatDefOf.Cleanliness) == null)
+                            {
+                                clone.SetStatBaseValue(StatDefOf.TerrorSource, 5f);
+                            }
+                            else
+                            {
+                                clone.SetStatBaseValue(StatDefOf.TerrorSource, (mycleanliness *= 1.25f));
+                            }
+                            break;
+                        }
+                    case "fillPercent":
+                        {
+                            PlantProperties plant = clone.plant;
+                            clone.fillPercent += 0.1f;
+                            break;
+                        }
                     default:
                         {
                             Log.Warning($"Unrecognized plant property: {cloneData.Trait.associatedPlantProperty}");

@@ -1,5 +1,4 @@
-﻿using Mono.Unix.Native;
-using RimWorld;
+﻿using RimWorld;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -74,11 +73,12 @@ namespace JHE2PlantExtension
                     if (Props.chemical != null)
                     {
                         HediffDef addictionHediffDef = Props.chemical.addictionHediff;
-                        Need need = pawn.needs.AllNeeds.Find((Need x) => x.def == addictionHediffDef.causesNeed);
-                        if (need != null)
-                        {
-                            need.CurLevel += 0.14500001f;
-                        }
+                      //  Need need = pawn.needs.AllNeeds.Find((Need x) => x.def == addictionHediffDef.causesNeed);
+                      //  if (need != null)
+                      //  {
+                       //     need.CurLevel += 0.14500001f;
+                       // }
+                       //We dont need this anyways, 1.6 broke it but the effects are non-addictive
                     }
                 }
             }

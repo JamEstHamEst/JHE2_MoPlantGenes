@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "tSW1Yx2KBj7dyXe+OfLcVpPY6ut9hMIhlZ/2N630uWAio53U3eb0MUDqvpejI1Q9qef8+wrSLsKy04PbiuJBCQ==",
+  "dgSpecHash": "pCR83YQ/0lJWLWqyz1ExbCy9LXpiGfAHFJE1wLmrmDk8ZcQ0yE/FQ1Cc3DqTdMsoQ1ocjrvQj+zAu5f9BAmpSg==",
   "success": true,
   "projectFilePath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\JHE2PlantExtension.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\tixpi\\.nuget\\packages\\krafs.rimworld.ref\\1.5.4297\\krafs.rimworld.ref.1.5.4297.nupkg.sha512",
-    "C:\\Users\\tixpi\\.nuget\\packages\\lib.harmony\\2.3.3\\lib.harmony.2.3.3.nupkg.sha512"
+    "C:\\Users\\tixpi\\.nuget\\packages\\krafs.rimworld.ref\\1.6.4528\\krafs.rimworld.ref.1.6.4528.nupkg.sha512",
+    "C:\\Users\\tixpi\\.nuget\\packages\\lib.harmony\\2.3.6\\lib.harmony.2.3.6.nupkg.sha512",
+    "C:\\Users\\tixpi\\.nuget\\packages\\lib.ingamewiki\\16.0.1\\lib.ingamewiki.16.0.1.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,5 +1,5 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\JHE2MorePlantGenetics\1.6\Assemblies\JHE2PlantExtension.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\JHE2MorePlantGenetics\Source\JHE2PlantExtension\obj\Debug\JHE2PlantExtension.csproj.AssemblyReference.cache
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\JHE2MorePlantGenetics\Source\JHE2PlantExtension\obj\Debug\JHE2PlantExtension.csproj.CoreCompileInputs.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\JHE2MorePlantGenetics\1.5\Assemblies\JHE2PlantExtension.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\JHE2MorePlantGenetics\Source\JHE2PlantExtension\obj\Debug\JHE2Plan.77CAC431.Up2Date
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\JHE2MorePlantGenetics\Source\JHE2PlantExtension\obj\Debug\JHE2PlantExtension.dll

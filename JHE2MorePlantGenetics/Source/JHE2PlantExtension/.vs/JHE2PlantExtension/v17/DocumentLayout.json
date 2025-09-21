@@ -1,0 +1,358 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\jhe2moreplantgenetics\\source\\jhe2plantextension\\plantgenetics_applytrait_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|solutionrelative:plantgenetics_applytrait_patch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\compspawnerpawnplant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|solutionrelative:compspawnerpawnplant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\compheatpusherplants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|solutionrelative:compheatpusherplants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\giveplanttrait.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|solutionrelative:giveplanttrait.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\jhe2_plantdefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|solutionrelative:jhe2_plantdefof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\suharantrait.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|solutionrelative:suharantrait.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\compcausehediff_aoejamesplant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|solutionrelative:compcausehediff_aoejamesplant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\wiki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|solutionrelative:wiki.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\jhe2plantextensionpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|solutionrelative:jhe2plantextensionpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\filename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|solutionrelative:filename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\compreleasegasjamesplant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|solutionrelative:compreleasegasjamesplant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\comppollutionpumpplant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|solutionrelative:comppollutionpumpplant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\compplantexplosive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|solutionrelative:compplantexplosive.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\comptoxifierplant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|solutionrelative:comptoxifierplant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|JHE2PlantExtension||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\compspawnerfilthjamesplant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|solutionrelative:compspawnerfilthjamesplant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\compautosow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|solutionrelative:compautosow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\comppolluteovertimeplant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|solutionrelative:comppolluteovertimeplant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\compproperties_autoharvest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|solutionrelative:compproperties_autoharvest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\compautoharvest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|solutionrelative:compautoharvest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\compgivehediffseverityjamesplant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE571428-B0D0-427C-AF27-93E9061F2563}|JHE2PlantExtension.csproj|solutionrelative:compgivehediffseverityjamesplant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlantGenetics_ApplyTrait_Patch.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\PlantGenetics_ApplyTrait_Patch.cs",
+              "RelativeDocumentMoniker": "PlantGenetics_ApplyTrait_Patch.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\PlantGenetics_ApplyTrait_Patch.cs",
+              "RelativeToolTip": "PlantGenetics_ApplyTrait_Patch.cs",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAMwIQAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T09:07:30.006Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JHE2_PlantDefOf.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\JHE2_PlantDefOf.cs",
+              "RelativeDocumentMoniker": "JHE2_PlantDefOf.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\JHE2_PlantDefOf.cs",
+              "RelativeToolTip": "JHE2_PlantDefOf.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAA0AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T08:06:55.941Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GivePlantTrait.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\GivePlantTrait.cs",
+              "RelativeDocumentMoniker": "GivePlantTrait.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\GivePlantTrait.cs",
+              "RelativeToolTip": "GivePlantTrait.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T13:00:15.336Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Wiki.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\Wiki.cs",
+              "RelativeDocumentMoniker": "Wiki.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\Wiki.cs",
+              "RelativeToolTip": "Wiki.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T13:24:58.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CompHeatPusherPlants.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\CompHeatPusherPlants.cs",
+              "RelativeDocumentMoniker": "CompHeatPusherPlants.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\CompHeatPusherPlants.cs",
+              "RelativeToolTip": "CompHeatPusherPlants.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwBcAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T08:35:48.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CompSpawnerPawnPlant.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\CompSpawnerPawnPlant.cs",
+              "RelativeDocumentMoniker": "CompSpawnerPawnPlant.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\CompSpawnerPawnPlant.cs",
+              "RelativeToolTip": "CompSpawnerPawnPlant.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwA8AAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T07:52:47.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SuharanTrait.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\SuharanTrait.cs",
+              "RelativeDocumentMoniker": "SuharanTrait.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\SuharanTrait.cs",
+              "RelativeToolTip": "SuharanTrait.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T10:40:45.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CompCauseHediff_AoEJamesPlant.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\CompCauseHediff_AoEJamesPlant.cs",
+              "RelativeDocumentMoniker": "CompCauseHediff_AoEJamesPlant.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\CompCauseHediff_AoEJamesPlant.cs",
+              "RelativeToolTip": "CompCauseHediff_AoEJamesPlant.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHMAAACBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T10:45:59.535Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FileName.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\FileName.cs",
+              "RelativeDocumentMoniker": "FileName.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\FileName.cs",
+              "RelativeToolTip": "FileName.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-26T14:10:29.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CompGiveHediffSeverityJamesPlant.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\CompGiveHediffSeverityJamesPlant.cs",
+              "RelativeDocumentMoniker": "CompGiveHediffSeverityJamesPlant.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\CompGiveHediffSeverityJamesPlant.cs",
+              "RelativeToolTip": "CompGiveHediffSeverityJamesPlant.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAgwAgAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T13:31:01.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "JHE2PlantExtension",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\JHE2PlantExtension.csproj",
+              "RelativeDocumentMoniker": "JHE2PlantExtension.csproj",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\JHE2PlantExtension.csproj",
+              "RelativeToolTip": "JHE2PlantExtension.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-06-14T08:58:57.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CompSpawnerFilthJamesPlant.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\CompSpawnerFilthJamesPlant.cs",
+              "RelativeDocumentMoniker": "CompSpawnerFilthJamesPlant.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\CompSpawnerFilthJamesPlant.cs",
+              "RelativeToolTip": "CompSpawnerFilthJamesPlant.cs",
+              "ViewState": "AQIAADMAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-12T09:33:10.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CompReleaseGasJamesPlant.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\CompReleaseGasJamesPlant.cs",
+              "RelativeDocumentMoniker": "CompReleaseGasJamesPlant.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\CompReleaseGasJamesPlant.cs",
+              "RelativeToolTip": "CompReleaseGasJamesPlant.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T16:59:00.107Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "CompPolluteOverTimePlant.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\CompPolluteOverTimePlant.cs",
+              "RelativeDocumentMoniker": "CompPolluteOverTimePlant.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\CompPolluteOverTimePlant.cs",
+              "RelativeToolTip": "CompPolluteOverTimePlant.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAgwBIAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T06:19:57.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CompToxifierPlant.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\CompToxifierPlant.cs",
+              "RelativeDocumentMoniker": "CompToxifierPlant.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\CompToxifierPlant.cs",
+              "RelativeToolTip": "CompToxifierPlant.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAowHUAAAC4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T06:10:38.791Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CompPollutionPumpPlant.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\CompPollutionPumpPlant.cs",
+              "RelativeDocumentMoniker": "CompPollutionPumpPlant.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\CompPollutionPumpPlant.cs",
+              "RelativeToolTip": "CompPollutionPumpPlant.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAgwFUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T10:06:31.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CompAutoSow.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\CompAutoSow.cs",
+              "RelativeDocumentMoniker": "CompAutoSow.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\CompAutoSow.cs",
+              "RelativeToolTip": "CompAutoSow.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAHsAAABkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T08:45:02.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CompAutoharvest.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\CompAutoharvest.cs",
+              "RelativeDocumentMoniker": "CompAutoharvest.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\CompAutoharvest.cs",
+              "RelativeToolTip": "CompAutoharvest.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACcAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T14:00:34.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "CompProperties_Autoharvest.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\CompProperties_Autoharvest.cs",
+              "RelativeDocumentMoniker": "CompProperties_Autoharvest.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\CompProperties_Autoharvest.cs",
+              "RelativeToolTip": "CompProperties_Autoharvest.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-06T14:13:00.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CompPlantExplosive.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\CompPlantExplosive.cs",
+              "RelativeDocumentMoniker": "CompPlantExplosive.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\CompPlantExplosive.cs",
+              "RelativeToolTip": "CompPlantExplosive.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T10:59:38.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "JHE2PlantExtensionPatch.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\JHE2PlantExtensionPatch.cs",
+              "RelativeDocumentMoniker": "JHE2PlantExtensionPatch.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\JHE2MorePlantGenetics\\Source\\JHE2PlantExtension\\JHE2PlantExtensionPatch.cs",
+              "RelativeToolTip": "JHE2PlantExtensionPatch.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T08:31:05.756Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

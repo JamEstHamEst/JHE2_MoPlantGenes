@@ -1,0 +1,7 @@
+ID: JHE2_Fickle_Wiki
+Title:Fickle
+Description: Decreases health points by 0.5x
+
+ENDTAGS
+#Plants with this trait can be bred have less health points, weakening the plant.
+<b><color=\#09e530>Stacks</color></b>#

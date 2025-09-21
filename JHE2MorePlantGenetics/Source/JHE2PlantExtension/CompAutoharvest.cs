@@ -37,7 +37,7 @@ namespace JHE2PlantExtension
                     ((Plant)parent).Growth = 0.01f;
                 }
                 else
-                {
+                { 
                     ((Plant)parent).Growth = parent.def.plant.harvestAfterGrowth;
                 }
             }
@@ -54,7 +54,7 @@ namespace JHE2PlantExtension
                 return;
             }
 
-            if (((Plant)parent).Growth >= 1f)
+            if (((Plant)parent).Growth >= 0.99f)
             {
                 SelfHarvest();
 

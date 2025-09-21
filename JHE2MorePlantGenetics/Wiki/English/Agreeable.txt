@@ -1,0 +1,8 @@
+ID: JHE2_Agreeable_Wiki
+Title:Agreeable
+Description: Decreases fertility minimum by 0.5x
+
+ENDTAGS
+#Plants with this trait can be bred to require less nutrient in the soil to grow.
+<b><color=\#09e530>Stacks</color></b>
+#

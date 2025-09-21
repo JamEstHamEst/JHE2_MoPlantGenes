@@ -1,0 +1,10 @@
+ID: JHE2_Noxious_Wiki
+Title:Noxious
+Description: Increases cells to fill by 2x
+ENDTAGS
+#Plants with this trait can be bred to produce a toxic gas around itself.
+<b><color=\#09e530>Stacks</color></b>
+<b><color=\#1ab7d5>Default</color></b> - 3 tiles
+<b><color=\#9d0303>Overrides</color></b> - Smokey, Rafflesia, Shambling
+<b><color=\#dffb0c>Requires</color></b> - Biotech
+#

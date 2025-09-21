@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<!-- MiniDryad -->
-	<ThingDef ParentName="DryadBase">
+	<ThingDef  MayRequire="Ludeon.RimWorld.Ideology" ParentName="DryadBase">
 		<defName>JHE2_Minidryad</defName>
 		<label>Duriads</label>
-		<description>Duriads are small mammalian creatures that have a symbiotic relationship with their parent plant. \n\nThe duriad will support and protect its plant to ensure the queen duriad inside can survive, attacking enemy combatants and putting out fires. \n\nDuriad workers have incredibly short life cycles only lasting a few days before their bodies quickly break down.</description>
+		<description>Duriads are small insectoid creatures that have a symbiotic relationship with their parent plant. \n\nThe duriad will support and protect its plant to ensure the mother duriad inside can survive, attacking enemy combatants and putting out fires. \n\nDuriad workers have incredibly short life cycles only lasting a few days before their bodies quickly break down.</description>
 		<statBases>
 			<MoveSpeed>2</MoveSpeed>
 		</statBases>
@@ -105,7 +105,7 @@
 			</li>
 		</comps>
 	</ThingDef>
-	<PawnKindDef ParentName="DryadKindBase">
+	<PawnKindDef  MayRequire="Ludeon.RimWorld.Ideology" ParentName="DryadKindBase">
 		<defName>JHE2_Minidryad</defName>
 		<label>mini dryad</label>
 		<race>JHE2_Minidryad</race>

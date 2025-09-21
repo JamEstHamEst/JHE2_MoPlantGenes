@@ -1,0 +1,9 @@
+ID: JHE2_Blunder_Free_Wiki
+Title:Blunder Free
+Description: Harvest can never fail
+
+ENDTAGS
+#Plants with this trait can be bred to ensure pawns never fail harvest.
+<b><color=\#ea1b1b>Does not stack</color></b>
+
+#
