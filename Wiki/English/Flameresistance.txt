@@ -1,0 +1,7 @@
+ID: JHE2_Flame_resistance_Wiki
+Title:Flame resistance
+Description: Decreases flammability by 0.5x
+
+ENDTAGS
+#Plants with this trait can be bred to be less susceptible to being set alight by retaining more water.
+<b><color=\#09e530>Stacks</color></b>#

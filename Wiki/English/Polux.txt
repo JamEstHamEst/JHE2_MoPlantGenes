@@ -1,0 +1,10 @@
+ID: JHE2_Polux_Wiki
+Title:Polux
+Description: Increases radius of pump and pumps/waste pack by 1.5x, decreases interval between pumps by 0.5x
+
+ENDTAGS
+#Plants with this trait can be bred to absorb pollution from the soil and expel it as toxic wastepacks.
+<b><color=\#09e530>Stacks</color></b>
+<b><color=\#1ab7d5>Default</color></b> - 1.9 tiles, 2 Pumps/wastepack, 3 days (6000 long ticks)
+<b><color=\#dffb0c>Requires</color></b> - Biotech
+#

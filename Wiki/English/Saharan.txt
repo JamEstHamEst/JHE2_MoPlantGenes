@@ -1,0 +1,7 @@
+ID: JHE2_Saharan_Wiki
+Description: Increases maximum optimal growth temperature by 5 degrees, and maximum growth temperature by 10 degrees
+Title:Saharan 
+ENDTAGS
+#Plants with this trait can be bred to be more accustomed to hot temperatures.
+<b><color=\#09e530>Stacks</color></b>
+#

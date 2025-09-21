@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+<PlantGenetics.TraitDef>
+		<defName>JHE2_easytrav</defName>
+		<label>traversable</label>
+		<desc>Decreases path cost by 2x</desc>
+		<commonality>0.01</commonality>
+		<statmultiplier>1.5</statmultiplier>
+		<associatedPlantProperty>Decreases path cost by 2x</associatedPlantProperty>
+		<shortdesc>The plant is easier to traverse through</shortdesc>
+	</PlantGenetics.TraitDef>
+	<PlantGenetics.TraitDef>
+		<defName>JHE2_hardtrav</defName>
+		<label>untraversable</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>1.5</statmultiplier>
+		<associatedPlantProperty>pathCosthard</associatedPlantProperty>
+		<desc>Increases path cost by 2x</desc>
+		<shortdesc>The plant is harder to traverse through</shortdesc>
+	</PlantGenetics.TraitDef>
+		<PlantGenetics.TraitDef>
+		<defName>JHE2_Dense</defName>
+		<label>Dense</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>1.5</statmultiplier>
+		<associatedPlantProperty>fillPercent</associatedPlantProperty>
+		<desc>Increases cover effectiveness by +10%</desc>
+		<shortdesc>The plant functions better as cover</shortdesc>
+	</PlantGenetics.TraitDef>
+
+<!--	
+<PlantGenetics.TraitDef>
+		<defName>JHE2_neurotoxic</defName>
+		<label>neurotoxic</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>1.5</statmultiplier>
+		<associatedPlantProperty>neurotoxin</associatedPlantProperty>
+	</PlantGenetics.TraitDef>
+	<PlantGenetics.TraitDef>
+		<defName>JHE2_toxic</defName>
+		<label>toxic</label>
+		<commonality>0.01</commonality>
+		<statmultiplier>1.5</statmultiplier>
+		<associatedPlantProperty>toxic</associatedPlantProperty>
+	</PlantGenetics.TraitDef>
+	 im not dealing with this right now stuff this,
+<PlantGenetics.TraitDef>
+	<defName>JHE2_repottable</defName>
+	<label>repottable</label>
+	<commonality>0.01</commonality>
+	<statmultiplier>1.5</statmultiplier>
+	<associatedPlantProperty>minifiedDef</associatedPlantProperty>
+</PlantGenetics.TraitDef>
+-->
+ <PlantGenetics.TraitDef>
+        <defName>JHE2_Saharan</defName>
+        <label>Saharan</label>
+        <commonality>0.01</commonality>
+        <special>true</special>
+		<desc>Increases maximum optimal growth temperature by 5 degrees, and maximum growth temperature by 10 degrees</desc>
+		<shortdesc>The plant is more accustomed to hot temperatures</shortdesc>
+    </PlantGenetics.TraitDef> 
+</Defs>

@@ -1,0 +1,8 @@
+ID: JHE2_Pottable_Wiki
+Title:Pottable
+Description: Plants can now be planted in pots
+
+ENDTAGS
+#Plants with this trait can be bred to be suited for smaller planting areas.
+<b><color=\#ea1b1b>Does not stack</color></b>
+#

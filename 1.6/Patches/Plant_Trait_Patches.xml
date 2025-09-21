@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/PlantGenetics.TraitDef[defName="Glowing"]/associatedPlantProperty</xpath>
+		<value>
+			<associatedPlantProperty>glower</associatedPlantProperty>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/PlantGenetics.TraitDef[defName="Winter"]</xpath>
+		<value>
+			<associatedPlantProperty>newWinter</associatedPlantProperty>
+		</value>
+	</Operation>
+		<Operation Class="PatchOperationReplace">
+		<xpath>Defs/PlantGenetics.TraitDef[defName="Glowing"]/desc</xpath>
+		<value>
+			<desc>Plant now glows - increases light radius by 1.5x</desc>
+		</value>
+	</Operation>
+	
+		<Operation Class="PatchOperationReplace">
+		<xpath>Defs/PlantGenetics.TraitDef[defName="Winter"]/desc</xpath>
+		<value>
+			<desc>Decreases minimum optimal growth temperature by 5 degrees, and minimum growth temperature by 10 degrees</desc>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/PlantGenetics.TraitDef[defName="Winter"]/special</xpath>
+	</Operation>
+		<Operation Class="PatchOperationAdd">
+		<xpath>Defs/PlantGenetics.TraitDef[defName="JHE2_Saharan"]</xpath>
+		<value>
+			<associatedPlantProperty>newSaharan</associatedPlantProperty>
+		</value>
+	</Operation>
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/PlantGenetics.TraitDef[defName="JHE2_Saharan"]/special</xpath>
+	</Operation>
+</Patch>

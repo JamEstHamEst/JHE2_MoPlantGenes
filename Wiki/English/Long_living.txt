@@ -1,0 +1,9 @@
+ID: JHE2_Long_living_Wiki
+Title:Long living
+Description: Increases plant lifespan by 1.5x
+
+ENDTAGS
+#Plants with this trait can be bred to live longer.
+<b><color=\#09e530>Stacks</color></b>
+<b><color=\#6c8be4>Notice</color></b> - Lifespan is also affected by plant growth time
+#

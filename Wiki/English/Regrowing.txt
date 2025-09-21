@@ -1,0 +1,9 @@
+ID: JHE2_Regrowing_Wiki
+Title:Regrowing
+Description: Increases growth after harvest by 1.5x
+
+ENDTAGS
+#Plants with this trait can be bred to either regrow after harvest or the plant's growth will be much higher after harvest.
+<b><color=\#09e530>Stacks</color></b>
+<b><color=\#1ab7d5>Default</color></b> - 5%
+#

@@ -1,0 +1,9 @@
+ID: JHE2_Photophobic_Wiki
+Title:Photophobic
+Description: Decreases light requirements to 0%, optimal light to 0%, and makes plant die in any light
+
+ENDTAGS
+#Plants with this trait can be bred to use nutrients in the soil for energy rather than sunlight. The plant will weak to sunlight.
+<b><color=\#ea1b1b>Does not stack</color></b>
+<b><color=\#9d0303>Overrides</color></b> - Photosynthetic
+#
