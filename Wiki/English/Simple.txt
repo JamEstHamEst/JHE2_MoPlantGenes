@@ -1,8 +1,0 @@
-ID: JHE2_Simple_Wiki
-Title:Simple
-Description: Decreases minimum planting skill by 0.5x
-
-ENDTAGS
-#Plants with this trait can be bred to reduce the complexity of the sowing process.
-<b><color=\#09e530>Stacks</color></b>
-#

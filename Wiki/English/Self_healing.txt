@@ -1,9 +1,0 @@
-ID: JHE2_Self_healing_Wiki
-Title:Self healing
-Description: Decreases ticks/heal by 0.75x
-
-ENDTAGS
-#Plants with this trait can be bred to rapidly regenerate from damage.
-<b><color=\#09e530>Stacks</color></b>
-<b><color=\#1ab7d5>Default</color></b> - 6000 long ticks(10hp a day)
-#

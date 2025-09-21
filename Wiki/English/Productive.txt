@@ -1,9 +1,0 @@
-ID: JHE2_Productive_Wiki
-Title:Productive
-Description: Increases harvest yield by 1.5x
-
-ENDTAGS
-#Plants with this trait can be bred to grow more produce.
-<b><color=\#09e530>Stacks</color></b>
-
-From base mod#

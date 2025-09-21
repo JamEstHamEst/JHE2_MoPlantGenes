@@ -1,9 +1,0 @@
-ID: JHE2_Thriving_Wiki
-Title:Thriving
-Description: Increases minimum fertility and fertility sensitivity by 1.3x
-
-ENDTAGS
-#Plants with this trait can be bred to be more reactive to the soil's fertility, allowing it to thrive in more preferable conditions.
-<b><color=\#09e530>Stacks</color></b>
-
-From base mod#

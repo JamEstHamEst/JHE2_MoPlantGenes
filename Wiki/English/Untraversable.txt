@@ -1,7 +1,0 @@
-ID: JHE2_Untraversable_Wiki
-Title:Untraversable
-Description: Increases path cost by 2x
-ENDTAGS
-#Plants with this trait can be bred to be harder to traverse over
-<b><color=\#09e530>Stacks</color></b>
-#

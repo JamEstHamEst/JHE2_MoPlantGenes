@@ -1,7 +1,0 @@
-ID: JHE2_clean_Wiki
-Title:Clean
-Description: Increases cleanliness by 1.1x
-ENDTAGS
-#Plants with this trait can be bred to produce an antiseptic that makes the room around it cleaner.
-<b><color=\#09e530>Stacks</color></b>
-#

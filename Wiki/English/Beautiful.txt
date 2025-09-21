@@ -1,9 +1,0 @@
-ID: JHE2_Beautiful_Wiki
-Title:Beautiful
-Description: Increases beauty and outside beauty by 2x
-
-ENDTAGS
-#Plants with this trait can be bred to appear more visually pleasing, displaying more vibrant colours and patterns.
-<b><color=\#09e530>Stacks</color></b>
-
-From base mod#

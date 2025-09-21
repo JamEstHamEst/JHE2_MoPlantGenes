@@ -1,9 +1,0 @@
-ID: JHE2_Resilient_Wiki
-Title:Resilient
-Description: Makes plant immune to blight, take no damage from toxic fallout and sunlight/no sunlight, and reduces sunlight requirements by 0.5x
-
-ENDTAGS
-#Plants with this trait can be bred to be more resilient to dangers, damage and disease.
-<b><color=\#09e530>Stacks</color></b> - only light requirement reduction
-
-From base mod#

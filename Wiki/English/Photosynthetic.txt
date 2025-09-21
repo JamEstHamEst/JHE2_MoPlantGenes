@@ -1,9 +1,0 @@
-ID: JHE2_Photosynthetic_Wiki
-Title:Photosynthetic
-Description: Increases light requirements to >51%, optimal light to 100%, and makes plant die without light
-
-ENDTAGS
-#Plants with this trait can be bred to use sunlight for energy and will die without it.
-<b><color=\#ea1b1b>Does not stack</color></b>
-<b><color=\#9d0303>Overrides</color></b> - Photophobic and Flexible(Only the light requirements
-#

@@ -1,8 +1,0 @@
-ID: JHE2_Sensitive_Wiki
-Title:Sensitive
-Description: Increases fertility sensitivity by 1.5x
-
-ENDTAGS
-#Plants with this trait can be bred to be more responsive to the nutrients in the soil.
-<b><color=\#09e530>Stacks</color></b>
-#

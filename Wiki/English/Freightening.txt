@@ -1,8 +1,0 @@
-ID: JHE2_Freightening_Wiki
-Title:Freightening
-Description: Increases terror by 1.25x
-ENDTAGS
-#Plants with this trait can be bred to appear more frightening and corpse-like to surpress slaves.
-<b><color=\#09e530>Stacks</color></b>
-<b><color=\#dffb0c>Requires</color></b> - Ideology
-#

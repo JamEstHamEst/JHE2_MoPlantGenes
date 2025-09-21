@@ -1,9 +1,0 @@
-ID: JHE2_Dense_Wiki
-Title:Dense
-Description: Increases cover effectiveness by +10%
-ENDTAGS
-#Plants with this trait can be bred to be more effective as cover.
-<b><color=\#09e530>Stacks</color></b>
-
-Suggestion from Qucumber from Steam
-#

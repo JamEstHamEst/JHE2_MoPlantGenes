@@ -1,7 +1,0 @@
-ID: JHE2_Traversable_Wiki
-Title:Traversable
-Description: Decreases path cost by 2x
-ENDTAGS
-#Plants with this trait can be bred to be easier to traverse over
-<b><color=\#09e530>Stacks</color></b>
-#

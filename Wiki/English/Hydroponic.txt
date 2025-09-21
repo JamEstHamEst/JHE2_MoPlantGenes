@@ -1,8 +1,0 @@
-ID: JHE2_Hydroponic_Wiki
-Title:Hydroponic
-Description: Plants can now be planted in hydroponics
-
-ENDTAGS
-#Plants with this trait can be bred to be suited for advanced hydroponics.
-<b><color=\#ea1b1b>Does not stack</color></b>
-#

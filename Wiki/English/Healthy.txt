@@ -1,7 +1,0 @@
-ID: JHE2_Healthy_Wiki
-Title:Healthy
-Description: Increases health points by 2x
-
-ENDTAGS
-#Plants with this trait can be bred have more health points, increasing their durability.
-<b><color=\#09e530>Stacks</color></b>#

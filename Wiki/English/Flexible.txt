@@ -1,9 +1,0 @@
-ID: JHE2_Flexible_Wiki
-Title:Flexible
-Description: Decreases minimum fertility and fertility sensitivity by 0.5x
-
-ENDTAGS
-#Plants with this trait can be bred to be less reactive to the soil's fertility, allowing it to grow in harsher conditions.
-<b><color=\#09e530>Stacks</color></b>
-
-From base mod#
